@@ -1,0 +1,1406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"chec",
+				"checkClick"
+			],
+			[
+				"fora",
+				"foraIcon"
+			],
+			[
+				"getele",
+				"getElementsByClassName"
+			],
+			[
+				"wh",
+				"while"
+			],
+			[
+				"c",
+				"checkMenu"
+			],
+			[
+				"menu",
+				"menuCheck"
+			],
+			[
+				"cal",
+				"calledMenu"
+			],
+			[
+				"men",
+				"menuCheck"
+			],
+			[
+				"class",
+				"classMenu"
+			],
+			[
+				"Menuc",
+				"menuClass"
+			],
+			[
+				"Menu",
+				"menuCalled"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"me",
+				"menuCalled"
+			],
+			[
+				"Men",
+				"menuClass"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"m",
+				"min-height"
+			],
+			[
+				"doc",
+				"doc"
+			],
+			[
+				"bak",
+				"background-color\tproperty"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pr",
+				"ProfileMenu/"
+			],
+			[
+				"p",
+				"ProfileMenu/"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"mdi",
+				"mdi_facebook.svg"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"car",
+				"Card"
+			],
+			[
+				"w",
+				"wallpaper"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"gete",
+				"getElementsByClassName"
+			],
+			[
+				"se",
+				"setTimeout"
+			],
+			[
+				"sco",
+				"scrollY"
+			],
+			[
+				"par",
+				"Paralax"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"getEle",
+				"getElementsByClassName"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"Carouse",
+				"CarouselTimer"
+			],
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"cla",
+				"ClaimFirstCard"
+			],
+			[
+				"card",
+				"cardId"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"Card",
+				"cardAssemble"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"add",
+				"add"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"ini",
+				"inline-block"
+			],
+			[
+				"bk",
+				"background-color"
+			],
+			[
+				"elem",
+				"elementPlane"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"element",
+				"element"
+			],
+			[
+				"a",
+				"AnimationInitial"
+			],
+			[
+				"elementte",
+				"elementText2"
+			],
+			[
+				"ani",
+				"animationCache"
+			],
+			[
+				"Ani",
+				"AnimationSkip"
+			],
+			[
+				"atr",
+				"attr"
+			],
+			[
+				"sca",
+				"scaleY()\ttransform"
+			],
+			[
+				"transform",
+				"transform-origin\tproperty"
+			],
+			[
+				"tras",
+				"transition\tproperty"
+			],
+			[
+				"bc",
+				"background-color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"Name",
+				"NamesMask"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"Secon",
+				"SecondImage"
+			],
+			[
+				"Second",
+				"SecondContainer"
+			],
+			[
+				"css",
+				"css"
+			],
+			[
+				"Ma",
+				"Mask2.png\tw:678 h:1280"
+			],
+			[
+				"clip",
+				"clip-path\tproperty"
+			],
+			[
+				"Hal",
+				"HalfLogo2.png\tw:678 h:713"
+			],
+			[
+				"mak",
+				"Mask2.png\tw:678 h:1280"
+			],
+			[
+				"div",
+				"divcontainer"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"click",
+				"clickTheme"
+			],
+			[
+				"Theme",
+				"Theme"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"clic",
+				"clickTheme"
+			],
+			[
+				"ge",
+				"getThis"
+			],
+			[
+				"chrome",
+				"chrome64"
+			],
+			[
+				"Icon",
+				"Icon.png\tw:377 h:211"
+			],
+			[
+				"aling",
+				"align-self\tproperty"
+			],
+			[
+				"g",
+				"rgba()\tbackground"
+			],
+			[
+				"bakc",
+				"background-size\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground"
+			],
+			[
+				"bloc",
+				"block\tdisplay"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"mai",
+				"margin-top\tproperty"
+			],
+			[
+				"fel",
+				"inline-flex\tdisplay"
+			],
+			[
+				"ta",
+				"table-column\tdisplay"
+			],
+			[
+				"r",
+				"right\tbackground"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"tra",
+				"transition-duration\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"CO",
+				"color\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"textc",
+				"text-decoration\tproperty"
+			],
+			[
+				"text-",
+				"text-indent\tproperty"
+			],
+			[
+				"sl",
+				"style\tTag"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"e",
+				"height\tproperty"
+			],
+			[
+				"text-deco",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"sp",
+				"script\tTag"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"Mar",
+				"margin\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Front-End/HTML/LandingPage.html",
+			"settings":
+			{
+				"buffer_size": 6477,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Front-End/JS/MainScript2.js",
+			"settings":
+			{
+				"buffer_size": 1800,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Front-End/SCSS/MainStyle.scss",
+			"settings":
+			{
+				"buffer_size": 3951,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lista",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"colorpick",
+				"Color Picker: Insert Color"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syta",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"SASS",
+				"Set Syntax: SCSS"
+			],
+			[
+				"packe",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"clear",
+			"git add ."
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/Complacency-Class",
+		"/C/wamp64/www/Complacency-Class/Site",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS/MainScript.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/HTML/LandingPage.html",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/SCRIPTS/Script.js",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/MainStyle.SCSS",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/Home.html",
+		"/C/wamp64/www/Complacency-Class/Site",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Animation.SCSS",
+		"/C/Users/PICHAU/Desktop/README.txt",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS/Colors.css",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Colors.SCSS",
+		"/C/Users/PICHAU/Desktop/index.html",
+		"/C/Users/PICHAU/Desktop/app.js",
+		"/C/Users/PICHAU/Desktop/UniversalSplitScreen/README.md",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS/MainStyle.css",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS/Animation.css",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Positions.SCSS",
+		"/C/wamp64/www/Portfolio_New/Front-End/Home.html",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Colors.css",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS",
+		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Colors0.scss",
+		"/C/wamp64/www/Portfolio_New/Front-End/Script/MainScript1.js",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Positions.scss",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Animation.scss",
+		"/C/Users/PICHAU/Desktop/teste.html",
+		"/C/Users/PICHAU/Desktop/teste",
+		"/C/wamp64/www/Portfolio_New/Front-End/CSS/Positions.css",
+		"/C/wamp64/www/Portfolio_New/.gitignore",
+		"/C/wamp64/www/Portfolio_New/Front-End/AnimationTest.html",
+		"/C/wamp64/www/Portfolio_New/.git/MERGE_MSG",
+		"/C/wamp64/www/Portfolio_New/Front-End/CSS/Colors0.css",
+		"/C/wamp64/www/Portfolio_New/Front-End/Script/MainsScript2.js",
+		"/C/wamp64/www/Portfolio_New/Design/Mask.png",
+		"/C/Users/PICHAU/.bash_profile",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainScript1.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design0.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Home.html",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design1.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design1.css",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design2.scss",
+		"/C/Users/PICHAU/Videos/Gravações/2020-08-01 10-12-27.mp4",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainsScript2.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainScript.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design.css",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design2.css",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/Default (Windows).sublime-keymap",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/README.md",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-commands",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/README.md",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/bin/colorpick",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/git_bash.py",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Installed Packages/SideBarEnhancements.sublime-package",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Home.html",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Script/MainScript.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/SCSS/Design.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/CSS/Design.css",
+		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/SCSS/Design.scss",
+		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/Home.html",
+		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/CSS/Design.css",
+		"/C/Users/PICHAU/Desktop/Projetos/MainMenu - Aula Akira/Home.css",
+		"/C/Program Files/Git/ReleaseNotes.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Projeto1/HTML/Motos.html",
+		"/C/Users/PICHAU/Desktop/Projetos/MainMenu - Aula Akira/Home.html",
+		"/C/Users/PICHAU/Desktop/(4) 🏖️ SUMMER Weight Lifting Simulator 4 - Roblox.html",
+		"/C/Users/PICHAU/AppData/Local/Temp/Al - Salvar para Web/Esboço-Canal_001.tmp/Esboço-Canal.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Relógio/home.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Relógio/home.css",
+		"/C/Users/PICHAU/Downloads/alo.html",
+		"/C/Users/PICHAU/Desktop/Site Teclado/TecladoHome.html",
+		"/C/Users/PICHAU/Desktop/Site Teclado/HomeTeclado.html",
+		"/C/Users/PICHAU/Desktop/aula.html",
+		"/C/Steam/userdata/258651364/218620/remote/save000.sav",
+		"/C/Steam/userdata/258651364/218620/remote/save098.sav",
+		"/C/Users/PICHAU/Desktop/PW/HTML/Index - Marcelo Heinrick Romeiro Senna Info-A.html",
+		"/C/Users/PICHAU/Desktop/PW/CSS/Home.css",
+		"/C/Users/PICHAU/Desktop/PW/HTML/Index.html",
+		"/C/Users/PICHAU/Desktop/PW/IMG",
+		"/C/Users/PICHAU/Desktop/Projetos/HTML/Motos.html",
+		"/C/Users/PICHAU/Desktop/Projetos/CSS/Principal.css",
+		"/C/Users/PICHAU/Desktop/Projetos/Motos.html",
+		"/C/Users/PICHAU/Desktop/Projetos/startbootstrap-sb-admin-2-gh-pages/index.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Motos/HTML/Home.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Motos/CSS/Principal.css",
+		"/C/Users/PICHAU/Desktop/Projetos/HTML/Home.html"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"'';\n",
+			"style=\"display: none;\"",
+			"6",
+			"Usuário",
+			"<img src=\"../../Design/Objects/TopMenu/ProfileMenu/Profile.svg\">",
+			"Começou",
+			"%;\n",
+			"<img src=\"../../Design/Objects/TopMenu/MainMenu/Home",
+			"<img tabindex=\"0\"",
+			"../../",
+			"\"><p",
+			"\"><spa",
+			"7",
+			"\"></li>",
+			"MidiasSociais-Vetores",
+			"draggable=\"false\"",
+			" draggable=\"none\"",
+			"</span>",
+			"<span>",
+			"right",
+			"section",
+			"#TopBar",
+			"style=\"\"",
+			"> ",
+			"<svg><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"3\" fill=\"red\"></circle></svg>",
+			"top",
+			"display: none;",
+			"Offet",
+			";\n",
+			"#MainMenu",
+			"class=\"Sections\" style=\"display: none;\"",
+			"4850",
+			".Wallpaper0",
+			"\">\n",
+			"ComentSec",
+			"CarouselLine",
+			"line",
+			"6",
+			"55",
+			".TripCard img, #TripInfo img",
+			"h1",
+			"div h1",
+			".TripCard h1, #TripInfo h1",
+			".TripCard p, #TripInfo p",
+			"img align",
+			"TripCard col-lg-4",
+			"TripCard col-lg-4 col-md-4 col-sm-4 col-xs-4 mr-5 ml-3",
+			";\n",
+			"remstyle;",
+			"<button",
+			"button",
+			"\"TripCard",
+			"TripCard col-lg-3",
+			"ml-5",
+			"ml-",
+			"ml-2",
+			"ml-5",
+			"back",
+			"85deg",
+			"d=\"Card",
+			"id=\"Card1",
+			"id=\"Card1\"",
+			"ml-5",
+			".class",
+			"\t\t\t\t\t\t\t\t\n",
+			" src=\"...\"",
+			"50px",
+			"20px",
+			"5px",
+			"#AnimationText",
+			"}\n",
+			"AnimationTittle3",
+			"{\n",
+			"attr('style', '');",
+			".attr('style', '');"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Front-End/HTML/LandingPage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5943,
+								5943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1579.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Front-End/JS/MainScript2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1546,
+										1551
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										1525,
+										1525
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								956,
+								399
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Front-End/SCSS/MainStyle.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3951,
+						"regions":
+						{
+							"col_00000019":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1926,
+										1940
+									]
+								],
+								"scope": "col_00000019"
+							},
+							"col_00000019_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000019_circle.png",
+								"regions":
+								[
+									[
+										1912,
+										1912
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_0000003F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										593,
+										608
+									]
+								],
+								"scope": "col_0000003F"
+							},
+							"col_0000003F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000003F_circle.png",
+								"regions":
+								[
+									[
+										566,
+										566
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00000066":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1511,
+										1525
+									]
+								],
+								"scope": "col_00000066"
+							},
+							"col_00000066_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000066_circle.png",
+								"regions":
+								[
+									[
+										1485,
+										1485
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										194,
+										199
+									],
+									[
+										2025,
+										2030
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										185,
+										185
+									],
+									[
+										2016,
+										2016
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_022F38FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2848,
+										2855
+									]
+								],
+								"scope": "col_022F38FF"
+							},
+							"col_022F38FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_022F38FF_circle.png",
+								"regions":
+								[
+									[
+										2829,
+										2829
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_46B2DDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2328,
+										2346
+									]
+								],
+								"scope": "col_46B2DDFF"
+							},
+							"col_46B2DDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_46B2DDFF_circle.png",
+								"regions":
+								[
+									[
+										2319,
+										2319
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_58E5E8FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										706,
+										713
+									],
+									[
+										2632,
+										2639
+									]
+								],
+								"scope": "col_58E5E8FF"
+							},
+							"col_58E5E8FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_58E5E8FF_circle.png",
+								"regions":
+								[
+									[
+										692,
+										692
+									],
+									[
+										2613,
+										2613
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_60A0E7FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										22,
+										29
+									]
+								],
+								"scope": "col_60A0E7FF"
+							},
+							"col_60A0E7FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_60A0E7FF_circle.png",
+								"regions":
+								[
+									[
+										8,
+										8
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_626262FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1311,
+										1318
+									]
+								],
+								"scope": "col_626262FF"
+							},
+							"col_626262FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_626262FF_circle.png",
+								"regions":
+								[
+									[
+										1303,
+										1303
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_CCCCCCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										487,
+										491
+									]
+								],
+								"scope": "col_CCCCCCFF"
+							},
+							"col_CCCCCCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_CCCCCCFF_circle.png",
+								"regions":
+								[
+									[
+										478,
+										478
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F7F7F7FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1444,
+										1451
+									]
+								],
+								"scope": "col_F7F7F7FF"
+							},
+							"col_F7F7F7FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F7F7F7FF_circle.png",
+								"regions":
+								[
+									[
+										1424,
+										1424
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										221,
+										226
+									],
+									[
+										927,
+										932
+									],
+									[
+										1245,
+										1250
+									],
+									[
+										2876,
+										2881
+									],
+									[
+										3051,
+										3056
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										201,
+										201
+									],
+									[
+										918,
+										918
+									],
+									[
+										1237,
+										1237
+									],
+									[
+										2867,
+										2867
+									],
+									[
+										3042,
+										3042
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								3028,
+								3028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2562.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Home.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

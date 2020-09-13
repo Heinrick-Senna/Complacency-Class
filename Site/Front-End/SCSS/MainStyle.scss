@@ -71,36 +71,49 @@
 
  #MenuIcons svg:hover, #MenuIcons svg:focus {
  	transform: scale(1.5);
- 	color: white;
+ 	fill: white;
  }
 
  #MenuIcons svg, #MenuIcons span, #SearchBox {
+ 	fill: #626262;
  	outline-style: none;
  	user-select: none;
  }
 
  // Menus
- #MenusContainer {
-
- }
-
  .TopMenu {
- }
-
- .TopMenu ul {
  	position: absolute;
- 	top: 0;
- 	right: 6%;
+ 	right: 0;
  	background-color: #F7F7F7;
  	border-radius: 0 0 13px 13px;
  	box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+ 	text-align: left;
+ 	margin-bottom: 10%;
+ 	@include mainAnimation;
+ 	transition: .5s;
+ } 
+
+ .TopMenu ul {
+ 	margin-left: -5%;
  	list-style: none;
  	user-select: none;
+ 	outline: none;
+ 	width: 100%;
  }
 
  .TopMenu li {
- 	margin-top: 25%;
- 	margin-left: -15%;
+ 	width: 100%;
+ 	padding: 5% 0 5% 5%;
+ 	margin: 5% 0 0 -5%;
+ 	outline: none;
+ 	cursor: pointer;
+ 	@include mainAnimation;
+ }
+
+ .TopMenu li:focus, .TopMenu li:hover {
+ 	background: rgba(0,0,0,.1);
+ 	border-radius: 10px; 
+ 	@include mainAnimation;
  }
 
  .TopMenu li span {
@@ -111,15 +124,41 @@
  }
 
  .TopMenu img {
- 	width: 15%;
+ 	max-width: 15%;
+ 	padding: 0;
  }
 
- .TopMenu li:first-of-type {
- 	margin-top: 15%;
+ .TopMenu:first-of-type ul span {
+ 	margin-left: 4%;
+ 	font: normal 12px Arial;
+ }
+
+ .TopMenu:first-of-type name {
+ 	margin-left: 2%;
+ 	font: normal 12px Arial;
+ 	color: rgba(70,178,221,1);
+ }
+
+ .TopMenu:first-of-type {
+ 	max-height: 43vh;
+ 	overflow: auto;
+ 	overflow-x: hidden;
+ 	border-radius: 0 0 0 13px;
+ }
+
+ .TopMenu::-webkit-scrollbar   {
+	background-color: transparent;
+	width: 5px;
+	border-radius: 12px;
+ }
+
+ .TopMenu::-webkit-scrollbar-thumb  {
+	background-color: #58E5E8;
+	width: 2px;
  }
 
  .TopMenu li:last-of-type {
- 	margin-bottom: 15%;
+ 	margin-bottom: 5%;
  }
 
  // Rodapé
@@ -154,7 +193,7 @@
  	list-style: none;
  }
 
- #Footer span:first-of-type:hover > img {
+ #Footer span:first-of-type:hover > a img  {
  	opacity: .6;
  	filter: blur(5px);
  	@include mainAnimation;
@@ -170,16 +209,20 @@
  #Footer span img {
  	width: 10%;
  	cursor: pointer;
- 	margin-left: 5%;
+ 	margin-left: 0%;
  	text-align: center;
  	@include mainAnimation;
  }
 
- #Footer span img:first-of-type {
+ #Footer span img:first-of-type, #Footer span a:first-of-type {
  	margin-left: 0;
  }
 
- #Footer span img:hover {
+ #Footer span a {
+ 	margin-left: 5%;
+ }
+
+ #Footer span img:hover, #Footer a:focus img {
  	transform: scale(1.35);
  	opacity: 1!important;
  	filter: blur(0px)!important;
@@ -187,12 +230,16 @@
 
 
 
- @media(max-width: 740px) {
- 	#Footer {
+ @media(max-width: 970px) {
+ 	#Footer, #TopBar, .TopMenu {
  		position: relative;
  	}
 
- 	#TopBar {
- 		position: relative;
+ 	.TopMenu:first-of-type {
+ 		max-height: 75vh;
+ 	}
+
+ 	.TopMenu ul {
+ 		margin-left: 0;
  	}
  }
