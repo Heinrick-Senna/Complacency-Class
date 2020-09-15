@@ -520,7 +520,7 @@
 			"file": "Front-End/JS/MainScript2.js",
 			"settings":
 			{
-				"buffer_size": 1800,
+				"buffer_size": 1778,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -744,7 +744,7 @@
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -758,6 +758,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"<li>",
 			"'';\n",
 			"style=\"display: none;\"",
 			"6",
@@ -850,7 +851,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -866,8 +867,8 @@
 						"selection":
 						[
 							[
-								5943,
-								5943
+								5333,
+								5333
 							]
 						],
 						"settings":
@@ -876,10 +877,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1579.0,
+						"translation.y": 1174.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -888,7 +889,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1800,
+						"buffer_size": 1778,
 						"regions":
 						{
 							"col_FFFFFFFF":
@@ -897,8 +898,8 @@
 								"regions":
 								[
 									[
-										1546,
-										1551
+										1524,
+										1529
 									]
 								],
 								"scope": "col_FFFFFFFF"
@@ -910,8 +911,8 @@
 								"regions":
 								[
 									[
-										1525,
-										1525
+										1503,
+										1503
 									]
 								],
 								"scope": "col_gutter"
@@ -920,8 +921,8 @@
 						"selection":
 						[
 							[
-								956,
-								399
+								1357,
+								1357
 							]
 						],
 						"settings":
@@ -931,10 +932,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1298,8 +1299,8 @@
 						"selection":
 						[
 							[
-								3028,
-								3028
+								3292,
+								3292
 							]
 						],
 						"settings":
@@ -1308,10 +1309,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2562.0,
+						"translation.y": 1174.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

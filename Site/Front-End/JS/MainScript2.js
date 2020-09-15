@@ -53,10 +53,8 @@ function callMenus (icon, num) {
 			}
 			i++
 		}
-		if (i = 3) {
-			if (calledMenu != menuCheck) {
-					openMenus (calledMenu, icon);			
-			}
+		if (calledMenu != menuCheck) {
+				openMenus (calledMenu, icon);			
 		}
 }
 
