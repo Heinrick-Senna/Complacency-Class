@@ -1,0 +1,46 @@
+@mixin mainAnimation {
+	transition: all 200ms ease-out;
+}
+
+#BoxCadastro {
+	background-color: rgb(230,230,240);
+	border-radius   : 10px;
+}
+
+#BoxCadastro button:first-of-type {
+	background-color: rgb(88,229,232);
+}
+
+#BoxCadastro button:nth-of-type(2) {
+	background-color: rgb(243,106,42);
+	margin-top      : 4vh;
+}
+
+#BoxCadastro button {
+	outline      : none;
+	border-style : none;
+	width        : 80%;
+	border-radius: 15px;
+	color        : white;
+	font         : bold 200% Verdana;
+	box-shadow   : 0 .5vw .5vw 0vw rgba(0,0,0,.5);
+	@include mainAnimation;
+}
+
+#BoxCadastro button:hover, #BoxCadastro button:focus  {
+	box-shadow: none;
+}
+
+#BoxCadastro button:focus {
+	border       : solid .2vw black;
+	border-radius: 8px;
+}
+
+#BoxCadastro p:first-of-type {
+	font: normal 2rem Agency FB;
+}
+
+#BoxCadastro p:nth-of-type(2) {
+	margin-top: 8vh;
+	font      : bold .75rem Verdana;
+}

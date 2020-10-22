@@ -37,9 +37,6 @@ $(window).ready(function(){
 });
 
 
-
-
-
 function callMenus (icon, num) {
 	var classMenu = document.getElementsByClassName('TopMenu'),
 		calledMenu = classMenu[num],
@@ -59,21 +56,30 @@ function callMenus (icon, num) {
 }
 
 function openMenus (menu, icon) {
-		menu.style.display =	'block';
-		icon.style.transform = 'scale(1.5)';
-		icon.style.fill = 'white';
-
+	var w = $(window).width();
+	icon.style.transform = 'scale(1.5)';
+	icon.style.fill = 'white';
+	if (w >= 970) {
+		menu.style.display = 'block';
 		setTimeout(function(){
 			menu.style.top = '3rem';
 		}, 15);
+	} else {
+		menu.style.display = 'block';
+		menu.style.top = '3rem';
+	}
 }
 
 function closeMenus (menu, icon) {
+	var w = $(window).width();
 	icon.removeAttribute('style');
-	icon.blur()
-	menu.style.top = '-45vh';
+	icon.blur();
+	if (w >= 970) {
+		menu.style.top = '-45vh';
 		setTimeout(function(){
-			menu.style.display = 'none'
+			menu.style.display = 'none';
 		}, 500);
-			
+	} else {
+		menu.style.display = 'none';
+	}
 }

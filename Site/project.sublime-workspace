@@ -520,7 +520,7 @@
 			"file": "Front-End/JS/MainScript2.js",
 			"settings":
 			{
-				"buffer_size": 1778,
+				"buffer_size": 1977,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -644,7 +644,6 @@
 		"/C/wamp64/www/Complacency-Class",
 		"/C/wamp64/www/Complacency-Class/Site",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End",
-		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS"
 	],
 	"file_history":
@@ -867,8 +866,8 @@
 						"selection":
 						[
 							[
-								5333,
-								5333
+								1300,
+								1300
 							]
 						],
 						"settings":
@@ -877,7 +876,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1174.0,
+						"translation.y": 400.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -889,7 +888,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1778,
+						"buffer_size": 1977,
 						"regions":
 						{
 							"col_FFFFFFFF":
@@ -898,8 +897,8 @@
 								"regions":
 								[
 									[
-										1524,
-										1529
+										1515,
+										1520
 									]
 								],
 								"scope": "col_FFFFFFFF"
@@ -911,8 +910,8 @@
 								"regions":
 								[
 									[
-										1503,
-										1503
+										1495,
+										1495
 									]
 								],
 								"scope": "col_gutter"
@@ -921,8 +920,8 @@
 						"selection":
 						[
 							[
-								1357,
-								1357
+								1703,
+								1703
 							]
 						],
 						"settings":
@@ -932,10 +931,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 630.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1299,8 +1298,8 @@
 						"selection":
 						[
 							[
-								3292,
-								3292
+								1319,
+								1319
 							]
 						],
 						"settings":
@@ -1309,10 +1308,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1174.0,
+						"translation.y": 741.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
