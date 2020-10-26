@@ -6,6 +6,18 @@ body {
 	background: #60A0E7;
 }
 
+#TopBar {
+	background-color: rgb(3,54,64);
+	padding-bottom: .75vh; 
+}
+
+// Logo
+#Logo {
+	color         : white;
+	font          : bold 2.5vw Arial;
+	vertical-align: middle;
+	user-select   :none;
+}
 
 // Barra de Pesquisa
 #SearchBox input, #SearchBox button {
@@ -85,85 +97,90 @@ body {
 	text-align      : left;
 	margin-bottom   : 10%;
 	transition      : all .5s ease;
-} 
+	padding         : 0;
+	z-index         : 5;
+ 
+	ul {
+		margin-left: -5%;
+		list-style : none;
+		user-select: none;
+		outline    : none;
+		width      : 100%;
+		a {
+			background-color: none;
+			color: black;
+			text-decoration: none;
+		}
+	}
 
-.TopMenu ul {
-	margin-left: -5%;
-	list-style : none;
-	user-select: none;
-	outline    : none;
-	width      : 100%;
+	li {
+		width  : 100%;
+		padding: 5% 0 5% 5%;
+		margin : 5% 0 0 -5%;
+		outline: none;
+		cursor : pointer;
+		@include mainAnimation;
+		span {
+			color         : black;
+			font          : bold 16px Arial;
+			margin-left   : 8%;
+			vertical-align: middle;
+		}
+		&:focus, &:hover {
+			background   : rgba(0,0,0,.1);
+			border-radius: 10px; 
+			@include mainAnimation;
+		}
+	}
+
+	img {
+		max-width: 15%;
+		padding  : 0;
+	}
+
+	&:first-of-type ul span {
+		margin-left: 4%;
+		font       : normal 12px Arial;
+	}
+
+	&:first-of-type name {
+		margin-left: 2%;
+		font       : normal 12px Arial;
+		color      : rgba(70,178,221,1);
+	}
+
+	&:first-of-type {
+		max-height   : 43vh;
+		overflow     : auto;
+		overflow-x   : hidden;
+		border-radius: 0 0 0 13px;
+	}
+
+	&::-webkit-scrollbar   {
+		background-color: transparent;
+		width           : 5px;
+		border-radius   : 12px;
+	}
+
+	&::-webkit-scrollbar-thumb  {
+		background-color: #58E5E8;
+		width           : 2px;
+	}
+
+	li:last-of-type {
+	 	margin-bottom: 5%;
+	}
 }
-
-.TopMenu li {
-	width  : 100%;
-	padding: 5% 0 5% 5%;
-	margin : 5% 0 0 -5%;
-	outline: none;
-	cursor : pointer;
-	@include mainAnimation;
-}
-
-.TopMenu li:focus, .TopMenu li:hover {
-	background   : rgba(0,0,0,.1);
-	border-radius: 10px; 
-	@include mainAnimation;
-}
-
-.TopMenu li span {
-	color         : black;
-	font          : bold 16px Arial;
-	margin-left   : 8%;
-	vertical-align: middle;
-}
-
-.TopMenu img {
-	max-width: 15%;
-	padding  : 0;
-}
-
-.TopMenu:first-of-type ul span {
-	margin-left: 4%;
-	font: normal 12px Arial;
-}
-
-.TopMenu:first-of-type name {
-	margin-left: 2%;
-	font       : normal 12px Arial;
-	color      : rgba(70,178,221,1);
-}
-
-.TopMenu:first-of-type {
-	max-height   : 43vh;
-	overflow     : auto;
-	overflow-x   : hidden;
-	border-radius: 0 0 0 13px;
-}
-
-.TopMenu::-webkit-scrollbar   {
-	background-color: transparent;
-	width           : 5px;
-	border-radius   : 12px;
-}
-
- .TopMenu::-webkit-scrollbar-thumb  {
-	background-color: #58E5E8;
-	width           : 2px;
- }
-
- .TopMenu li:last-of-type {
- 	margin-bottom: 5%;
- }
-
  // Rodapé
 #Footer {
-	position        : absolute;
+	position        : relative;
 	width           : 100%;
 	min-height      : 18vh;
 	bottom          : 0;
 	left            : 0;
 	overflow        : hidden;
 	background-color: #022F38;
+	transition      : all 200ms ease-out;
 }
 
 h3 {
@@ -197,7 +214,7 @@ h3 {
 	position : absolute;
 	top      : 0;
 	left     : 0;
-	transform: scale(1) translate(-65%,-35%);
+	transform: scale(1) translate(-65%, -35%);
 }
 
 #Footer span img {
@@ -226,7 +243,7 @@ h3 {
 
 @media(max-width: 970px) {
 	#Footer, #TopBar, .TopMenu {
-		position: relative;
+		position: relative!important;
 	}
 
 	.TopMenu:first-of-type {

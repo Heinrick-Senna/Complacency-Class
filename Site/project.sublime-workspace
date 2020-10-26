@@ -4,292 +4,312 @@
 		"selected_items":
 		[
 			[
-				"get",
-				"getElementsByClassName"
-			],
-			[
-				"chec",
-				"checkClick"
-			],
-			[
-				"fora",
-				"foraIcon"
-			],
-			[
-				"getele",
-				"getElementsByClassName"
-			],
-			[
-				"wh",
-				"while"
-			],
-			[
-				"c",
-				"checkMenu"
-			],
-			[
-				"menu",
-				"menuCheck"
-			],
-			[
-				"cal",
-				"calledMenu"
-			],
-			[
-				"men",
-				"menuCheck"
-			],
-			[
-				"class",
-				"classMenu"
-			],
-			[
-				"Menuc",
-				"menuClass"
-			],
-			[
-				"Menu",
-				"menuCalled"
-			],
-			[
-				"i",
-				"i"
-			],
-			[
-				"me",
-				"menuCalled"
-			],
-			[
-				"Men",
-				"menuClass"
-			],
-			[
-				"s",
-				"style"
-			],
-			[
-				"ma",
-				"margin-bottom"
-			],
-			[
-				"text",
-				"text-indent"
-			],
-			[
-				"fon",
-				"font"
-			],
-			[
-				"m",
-				"min-height"
-			],
-			[
-				"doc",
-				"doc"
-			],
-			[
-				"bak",
-				"background-color\tproperty"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"max",
-				"max-height"
-			],
-			[
-				"le",
-				"left"
-			],
-			[
 				"mar",
-				"margin-left"
-			],
-			[
-				"pr",
-				"ProfileMenu/"
-			],
-			[
-				"p",
-				"ProfileMenu/"
-			],
-			[
-				"ba",
-				"background"
+				"margin-top"
 			],
 			[
 				"li",
-				"line-height"
+				"link\tTag"
 			],
 			[
-				"border",
-				"border-radius"
+				"tex",
+				"text-shadow\tproperty"
 			],
 			[
-				"font",
-				"font"
+				"max",
+				"max-height\tproperty"
 			],
 			[
-				"mdi",
-				"mdi_facebook.svg"
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"req",
+				"req"
+			],
+			[
+				"re",
+				"RegisterBoxBackward"
+			],
+			[
+				"c",
+				"condition"
 			],
 			[
 				"d",
-				"div\tTag"
+				"datalist\tTag"
 			],
 			[
-				"bac",
-				"background-color"
+				"BORDE",
+				"border-radius"
 			],
 			[
-				"in",
-				"inline-block"
+				"ma",
+				"margin-top"
+			],
+			[
+				"m",
+				"max-height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"min",
+				"min-width"
 			],
 			[
 				"al",
 				"text-align"
 			],
 			[
-				"co",
-				"color"
+				"hei",
+				"height"
 			],
 			[
-				"tex",
-				"text-align"
+				"he",
+				"height"
 			],
 			[
-				"te",
-				"text-align"
+				"a",
+				"table-cell"
 			],
 			[
-				"min",
-				"min-height"
+				"S",
+				"static"
 			],
 			[
-				"car",
-				"Card"
+				"t",
+				"top"
 			],
 			[
-				"w",
-				"wallpaper"
+				"f",
+				"fixed"
 			],
 			[
-				"ali",
-				"vertical-align"
+				"bore",
+				"border"
 			],
 			[
-				"gete",
-				"getElementsByClassName"
+				"in",
+				"input\tTag"
 			],
 			[
-				"se",
-				"setTimeout"
+				"out",
+				"outline-color"
 			],
 			[
-				"sco",
-				"scrollY"
+				"bo",
+				"bottom"
 			],
 			[
-				"par",
-				"Paralax"
+				"rg",
+				"rgb()"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"Pr",
+				"ProductSchema"
+			],
+			[
+				"ap",
+				"appendChild"
 			],
 			[
 				"va",
 				"value"
 			],
 			[
-				"getEle",
-				"getElementsByClassName"
+				"user",
+				"usernick"
 			],
 			[
-				"back",
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bac",
 				"background"
 			],
 			[
-				"wid",
-				"width"
+				"cli",
+				"clickTheme"
 			],
 			[
-				"letter",
-				"letter-spacing"
+				"cl",
+				"clickTheme"
 			],
 			[
-				"Carouse",
-				"CarouselTimer"
-			],
-			[
-				"remove",
-				"removeAttr"
-			],
-			[
-				"cla",
-				"ClaimFirstCard"
-			],
-			[
-				"card",
-				"cardId"
-			],
-			[
-				"con",
-				"console"
-			],
-			[
-				"Card",
-				"cardAssemble"
-			],
-			[
-				"set",
-				"setInterval"
+				"getele",
+				"getElementById"
 			],
 			[
 				"add",
 				"add"
 			],
 			[
-				"f",
-				"function"
+				"i",
+				"i"
 			],
 			[
-				"ini",
-				"inline-block"
+				"ram",
+				"randomC"
 			],
 			[
-				"bk",
-				"background-color"
+				"di",
+				"div\tTag"
 			],
 			[
-				"elem",
-				"elementPlane"
+				"remove",
+				"removeAttr"
 			],
 			[
-				"ele",
-				"element"
+				"o",
+				"o"
 			],
 			[
-				"element",
-				"element"
+				"remo",
+				"removeAttr"
 			],
 			[
-				"a",
-				"AnimationInitial"
+				"an",
+				"AnimationSkip"
 			],
 			[
-				"elementte",
-				"elementText2"
+				"class",
+				"classList"
 			],
 			[
-				"ani",
-				"animationCache"
+				"rm",
+				"removeClass"
+			],
+			[
+				"Block",
+				"Block"
+			],
+			[
+				"getElem",
+				"getElementsByClassName"
+			],
+			[
+				"loca",
+				"LoadBlocks"
+			],
+			[
+				"viw",
+				"viewportHeight"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"blcok",
+				"blockSelected"
+			],
+			[
+				"bloc",
+				"blockSelected"
+			],
+			[
+				"getElements",
+				"getElementsByClassName"
+			],
+			[
+				"v",
+				"viewportHeight"
+			],
+			[
+				"blo",
+				"blockHeight"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"rem",
+				"removeAttr"
+			],
+			[
+				"atr",
+				"getAttribute"
+			],
+			[
+				"ANimation",
+				"AnimationInt"
 			],
 			[
 				"Ani",
 				"AnimationSkip"
 			],
 			[
-				"atr",
+				"wi",
+				"width"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"id",
+				"idSiblings"
+			],
+			[
+				"att",
 				"attr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pa",
+				"pageCallled"
+			],
+			[
+				"click",
+				"click"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"col",
+				"table-column"
 			],
 			[
 				"sca",
@@ -308,12 +328,8 @@
 				"background-color\tproperty"
 			],
 			[
-				"wi",
-				"width\tproperty"
-			],
-			[
-				"clas",
-				"classList"
+				"se",
+				"setTimeout"
 			],
 			[
 				"fu",
@@ -322,10 +338,6 @@
 			[
 				"Name",
 				"NamesMask"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"mari",
@@ -338,6 +350,10 @@
 			[
 				"Second",
 				"SecondContainer"
+			],
+			[
+				"ba",
+				"background\tproperty"
 			],
 			[
 				"css",
@@ -364,12 +380,20 @@
 				"divcontainer"
 			],
 			[
-				"rg",
-				"rgba()"
+				"cla",
+				"classList"
 			],
 			[
-				"click",
-				"clickTheme"
+				"men",
+				"MenuCheck"
+			],
+			[
+				"Men",
+				"MenuCheck"
+			],
+			[
+				"back",
+				"background-color"
 			],
 			[
 				"Theme",
@@ -388,12 +412,20 @@
 				"getThis"
 			],
 			[
+				"text",
+				"text-align"
+			],
+			[
 				"chrome",
 				"chrome64"
 			],
 			[
 				"Icon",
 				"Icon.png\tw:377 h:211"
+			],
+			[
+				"font",
+				"font-size\tproperty"
 			],
 			[
 				"aling",
@@ -404,24 +436,16 @@
 				"rgba()\tbackground"
 			],
 			[
-				"bakc",
-				"background-size\tproperty"
-			],
-			[
-				"u",
-				"url()\tbackground"
-			],
-			[
-				"bloc",
-				"block\tdisplay"
-			],
-			[
 				"paddi",
 				"padding\tproperty"
 			],
 			[
 				"mai",
 				"margin-top\tproperty"
+			],
+			[
+				"co",
+				"table-caption\tdisplay"
 			],
 			[
 				"fel",
@@ -444,10 +468,6 @@
 				"transition-duration\tproperty"
 			],
 			[
-				"pad",
-				"padding\tproperty"
-			],
-			[
 				"CO",
 				"color\tproperty"
 			],
@@ -468,10 +488,6 @@
 				"style\tTag"
 			],
 			[
-				"l",
-				"link\tTag"
-			],
-			[
 				"e",
 				"height\tproperty"
 			],
@@ -480,8 +496,8 @@
 				"text-decoration-color\tproperty"
 			],
 			[
-				"border-r",
-				"border-radius\tproperty"
+				"te",
+				"text-decoration-style\tproperty"
 			],
 			[
 				"met",
@@ -498,38 +514,16 @@
 			[
 				"Mar",
 				"margin\tproperty"
-			],
-			[
-				"marg",
-				"margin\tproperty"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Front-End/HTML/LandingPage.html",
+			"file": "/C/wamp64/www/Complacency-Class/.gitignore",
 			"settings":
 			{
-				"buffer_size": 6477,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Front-End/JS/MainScript2.js",
-			"settings":
-			{
-				"buffer_size": 1977,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Front-End/SCSS/MainStyle.scss",
-			"settings":
-			{
-				"buffer_size": 3951,
+				"buffer_size": 15,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -547,28 +541,68 @@
 		"selected_items":
 		[
 			[
-				"instal",
+				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"remvoe",
+				"Package Control: Remove Package"
 			],
 			[
 				"remove",
 				"Package Control: Remove Package"
 			],
 			[
-				"lista",
+				"list",
 				"Package Control: List Packages"
 			],
 			[
-				"list",
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"vie",
+				"View In Browser"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"instg",
+				"Package Control: Install Package"
+			],
+			[
+				"thme",
+				"UI: Select Theme"
+			],
+			[
+				"lista",
 				"Package Control: List Packages"
 			],
 			[
 				"list p",
 				"Package Control: List Packages"
-			],
-			[
-				"color",
-				"Color Picker"
 			],
 			[
 				"Package Control: remov",
@@ -607,10 +641,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
 			],
@@ -644,38 +674,74 @@
 		"/C/wamp64/www/Complacency-Class",
 		"/C/wamp64/www/Complacency-Class/Site",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End",
-		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS"
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/src"
 	],
 	"file_history":
 	[
-		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS/MainScript.js",
-		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/Register.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/404-NOTFOUND.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/LandingPage.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/notas",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/JS/MainScript.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/SCSS/Register.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/JS/Register.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/app.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/SCSS/ModelPags.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/CSS/MainStyle.css",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/package.json",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End/HTML/LandingPage.html",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/SCRIPTS/Script.js",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/MainStyle.SCSS",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/Home.html",
-		"/C/wamp64/www/Complacency-Class/Site",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Animation.SCSS",
-		"/C/Users/PICHAU/Desktop/README.txt",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS/Colors.css",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Colors.SCSS",
-		"/C/Users/PICHAU/Desktop/index.html",
-		"/C/Users/PICHAU/Desktop/app.js",
-		"/C/Users/PICHAU/Desktop/UniversalSplitScreen/README.md",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS/MainStyle.css",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS/Animation.css",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Positions.SCSS",
-		"/C/wamp64/www/Portfolio_New/Front-End/Home.html",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS/Colors.css",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/CSS",
-		"/C/wamp64/www/SiteTurismoPW/Front-End/SCSS",
-		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Colors0.scss",
-		"/C/wamp64/www/Portfolio_New/Front-End/Script/MainScript1.js",
-		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Positions.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/HTML/Register.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS/Register.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS/Register.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS/MainScript.js",
+		"/C/wamp64/www/node-aula/server.js",
+		"/C/wamp64/www/node-aula/src/models/Product.js",
+		"/C/Users/AsllaM/Downloads/lobizabikers.github.io-main/index.html",
+		"/C/wamp64/www/node-aula/package.json",
+		"/C/Users/AsllaM/Documents/WindowsPowerShell/profile.ps1",
+		"/C/Users/AsllaM/Desktop/RockSeatAula/index.html",
 		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Animation.scss",
-		"/C/Users/PICHAU/Desktop/teste.html",
-		"/C/Users/PICHAU/Desktop/teste",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Positions.scss",
+		"/C/wamp64/www/Portfolio_New/Front-End/Script/MainScript1.js",
+		"/C/wamp64/www/Portfolio_New/Front-End/Home.html",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Colors0.scss",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/P.scss",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/AutoAligner/README.md",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Installed Packages/Icon Fonts (Legacy).sublime-package",
+		"/C/wamp64/www/Portfolio_New/Front-End/Script/Babel.js",
+		"/C/Users/AsllaM/Desktop/Work.bat",
+		"/C/Users/AsllaM/Desktop/Work.txt",
+		"/C/wamp64/www/.gitconfig",
+		"/C/Users/PICHAU/Downloads/steamwd.user.js",
 		"/C/wamp64/www/Portfolio_New/Front-End/CSS/Positions.css",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/casa.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/perfil.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/ideia.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/bate-papo.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/apresentacao.svg",
+		"/C/Users/PICHAU/Downloads/Facebook-app-clone-master/README.md",
+		"/C/Users/PICHAU/Downloads/Facebook-app-clone-master/App.js",
+		"/C/Users/PICHAU/Desktop/res.html",
+		"/C/Users/PICHAU/Downloads/Wallpapers/wallpaper.engine.build.1.1.341-MestreTM/projects/myprojects/1737624516/project.json",
+		"/C/Users/PICHAU/Downloads/Wallpapers/wallpaper.engine.build.1.1.341-MestreTM/projects/myprojects/progress_or_die/project.json",
+		"/C/Users/PICHAU/Downloads/Wallpapers/TranslucentTB-release/README.md",
+		"/C/Users/PICHAU/Desktop/teste.html",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/money.m",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/restart.r",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/escape.t",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/fear.t",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/hope.t",
+		"/C/Users/PICHAU/Desktop/teste",
 		"/C/wamp64/www/Portfolio_New/.gitignore",
 		"/C/wamp64/www/Portfolio_New/Front-End/AnimationTest.html",
 		"/C/wamp64/www/Portfolio_New/.git/MERGE_MSG",
@@ -743,7 +809,7 @@
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -757,82 +823,25 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"<li>",
-			"'';\n",
-			"style=\"display: none;\"",
-			"6",
-			"Usuário",
-			"<img src=\"../../Design/Objects/TopMenu/ProfileMenu/Profile.svg\">",
-			"Começou",
-			"%;\n",
-			"<img src=\"../../Design/Objects/TopMenu/MainMenu/Home",
-			"<img tabindex=\"0\"",
-			"../../",
-			"\"><p",
-			"\"><spa",
-			"7",
-			"\"></li>",
-			"MidiasSociais-Vetores",
-			"draggable=\"false\"",
-			" draggable=\"none\"",
-			"</span>",
-			"<span>",
-			"right",
-			"section",
-			"#TopBar",
-			"style=\"\"",
-			"> ",
-			"<svg><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"3\" fill=\"red\"></circle></svg>",
-			"top",
-			"display: none;",
-			"Offet",
-			";\n",
-			"#MainMenu",
-			"class=\"Sections\" style=\"display: none;\"",
-			"4850",
-			".Wallpaper0",
-			"\">\n",
-			"ComentSec",
-			"CarouselLine",
-			"line",
-			"6",
-			"55",
-			".TripCard img, #TripInfo img",
-			"h1",
-			"div h1",
-			".TripCard h1, #TripInfo h1",
-			".TripCard p, #TripInfo p",
-			"img align",
-			"TripCard col-lg-4",
-			"TripCard col-lg-4 col-md-4 col-sm-4 col-xs-4 mr-5 ml-3",
-			";\n",
-			"remstyle;",
-			"<button",
-			"button",
-			"\"TripCard",
-			"TripCard col-lg-3",
-			"ml-5",
-			"ml-",
-			"ml-2",
-			"ml-5",
-			"back",
-			"85deg",
-			"d=\"Card",
-			"id=\"Card1",
-			"id=\"Card1\"",
-			"ml-5",
-			".class",
-			"\t\t\t\t\t\t\t\t\n",
-			" src=\"...\"",
-			"50px",
-			"20px",
-			"5px",
-			"#AnimationText",
-			"}\n",
-			"AnimationTittle3",
-			"{\n",
-			"attr('style', '');",
-			".attr('style', '');"
+			".TopMenu",
+			"../..",
+			"li:",
+			"li",
+			"<a href=\"#BoxCadastro\">",
+			")+')').",
+			"class=\"AdvancedRegister\"",
+			"input",
+			"Menu.js",
+			"(9)",
+			"(10)",
+			"50",
+			"label><br><i",
+			"#BoxCadastro",
+			"label><input",
+			"placeholder",
+			"place",
+			"Mail",
+			";\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -855,463 +864,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Front-End/HTML/LandingPage.html",
+					"file": "/C/wamp64/www/Complacency-Class/.gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6477,
+						"buffer_size": 15,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1300,
-								1300
+								15,
+								15
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/Git.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 400.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Front-End/JS/MainScript2.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1977,
-						"regions":
-						{
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1515,
-										1520
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										1495,
-										1495
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								1703,
-								1703
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Front-End/SCSS/MainStyle.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3951,
-						"regions":
-						{
-							"col_00000019":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1926,
-										1940
-									]
-								],
-								"scope": "col_00000019"
-							},
-							"col_00000019_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000019_circle.png",
-								"regions":
-								[
-									[
-										1912,
-										1912
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_0000003F":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										593,
-										608
-									]
-								],
-								"scope": "col_0000003F"
-							},
-							"col_0000003F_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_0000003F_circle.png",
-								"regions":
-								[
-									[
-										566,
-										566
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_00000066":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1511,
-										1525
-									]
-								],
-								"scope": "col_00000066"
-							},
-							"col_00000066_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000066_circle.png",
-								"regions":
-								[
-									[
-										1485,
-										1485
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_000000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										194,
-										199
-									],
-									[
-										2025,
-										2030
-									]
-								],
-								"scope": "col_000000FF"
-							},
-							"col_000000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
-								"regions":
-								[
-									[
-										185,
-										185
-									],
-									[
-										2016,
-										2016
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_022F38FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										2848,
-										2855
-									]
-								],
-								"scope": "col_022F38FF"
-							},
-							"col_022F38FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_022F38FF_circle.png",
-								"regions":
-								[
-									[
-										2829,
-										2829
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_46B2DDFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										2328,
-										2346
-									]
-								],
-								"scope": "col_46B2DDFF"
-							},
-							"col_46B2DDFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_46B2DDFF_circle.png",
-								"regions":
-								[
-									[
-										2319,
-										2319
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_58E5E8FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										706,
-										713
-									],
-									[
-										2632,
-										2639
-									]
-								],
-								"scope": "col_58E5E8FF"
-							},
-							"col_58E5E8FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_58E5E8FF_circle.png",
-								"regions":
-								[
-									[
-										692,
-										692
-									],
-									[
-										2613,
-										2613
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_60A0E7FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										22,
-										29
-									]
-								],
-								"scope": "col_60A0E7FF"
-							},
-							"col_60A0E7FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_60A0E7FF_circle.png",
-								"regions":
-								[
-									[
-										8,
-										8
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_626262FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1311,
-										1318
-									]
-								],
-								"scope": "col_626262FF"
-							},
-							"col_626262FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_626262FF_circle.png",
-								"regions":
-								[
-									[
-										1303,
-										1303
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_CCCCCCFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										487,
-										491
-									]
-								],
-								"scope": "col_CCCCCCFF"
-							},
-							"col_CCCCCCFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_CCCCCCFF_circle.png",
-								"regions":
-								[
-									[
-										478,
-										478
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_F7F7F7FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										1444,
-										1451
-									]
-								],
-								"scope": "col_F7F7F7FF"
-							},
-							"col_F7F7F7FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_F7F7F7FF_circle.png",
-								"regions":
-								[
-									[
-										1424,
-										1424
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										221,
-										226
-									],
-									[
-										927,
-										932
-									],
-									[
-										1245,
-										1250
-									],
-									[
-										2876,
-										2881
-									],
-									[
-										3051,
-										3056
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										201,
-										201
-									],
-									[
-										918,
-										918
-									],
-									[
-										1237,
-										1237
-									],
-									[
-										2867,
-										2867
-									],
-									[
-										3042,
-										3042
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								1319,
-								1319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 741.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1319,11 +895,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 54.0
+		"height": 63.0
 	},
 	"layout":
 	{
@@ -1356,7 +932,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1398,7 +974,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 317.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
