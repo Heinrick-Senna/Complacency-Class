@@ -20,10 +20,10 @@ function RegisterBoxSwitch (condition) {
 			'<li><label for="CurriculoLink">Link</label><input type="text" name="CurriculoLink"/></li>' +
 			'<li><label for="Curriculo">Arquivo</label><input type="file" name="Curriculo"/></li>' + 
 			'<li><label for="Informação">Conte um pouco sobre você e suas áreas de interesse</label><textarea placeholder="Resumo......" name="Informação" rows="5" required></textarea></li>' +
-			'<button>Send</button>');
+			'<button type="submit">Send</button>');
 	} else if (condition == 0) {
 		$('#BoxCadastro p:first-of-type').html('Cadastro De Estudante');
-		$('#BoxCadastro form').append('<button>Send</button>');
+		$('#BoxCadastro form').append('<button type="submit">Send</button>');
 	}
 	var Buttons = $('#BoxCadastro nav:nth-of-type(2)'),
 		baseForm = $('#BoxCadastro nav:first-of-type');
