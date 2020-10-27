@@ -1,0 +1,941 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"MAR",
+				"margin-top"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"tex",
+				"text-shadow\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"req",
+				"req"
+			],
+			[
+				"re",
+				"RegisterBoxBackward"
+			],
+			[
+				"c",
+				"condition"
+			],
+			[
+				"d",
+				"datalist\tTag"
+			],
+			[
+				"BORDE",
+				"border-radius"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"m",
+				"max-height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"a",
+				"table-cell"
+			],
+			[
+				"S",
+				"static"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"out",
+				"outline-color"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"Pr",
+				"ProductSchema"
+			],
+			[
+				"ap",
+				"appendChild"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"user",
+				"usernick"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"cli",
+				"clickTheme"
+			],
+			[
+				"cl",
+				"clickTheme"
+			],
+			[
+				"getele",
+				"getElementById"
+			],
+			[
+				"add",
+				"add"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"ram",
+				"randomC"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"o",
+				"o"
+			],
+			[
+				"remo",
+				"removeAttr"
+			],
+			[
+				"an",
+				"AnimationSkip"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"rm",
+				"removeClass"
+			],
+			[
+				"Block",
+				"Block"
+			],
+			[
+				"getElem",
+				"getElementsByClassName"
+			],
+			[
+				"loca",
+				"LoadBlocks"
+			],
+			[
+				"viw",
+				"viewportHeight"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"blcok",
+				"blockSelected"
+			],
+			[
+				"bloc",
+				"blockSelected"
+			],
+			[
+				"getElements",
+				"getElementsByClassName"
+			],
+			[
+				"v",
+				"viewportHeight"
+			],
+			[
+				"blo",
+				"blockHeight"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"rem",
+				"removeAttr"
+			],
+			[
+				"atr",
+				"getAttribute"
+			],
+			[
+				"ANimation",
+				"AnimationInt"
+			],
+			[
+				"Ani",
+				"AnimationSkip"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"id",
+				"idSiblings"
+			],
+			[
+				"att",
+				"attr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pa",
+				"pageCallled"
+			],
+			[
+				"click",
+				"click"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"col",
+				"table-column"
+			],
+			[
+				"sca",
+				"scaleY()\ttransform"
+			],
+			[
+				"transform",
+				"transform-origin\tproperty"
+			],
+			[
+				"tras",
+				"transition\tproperty"
+			],
+			[
+				"bc",
+				"background-color\tproperty"
+			],
+			[
+				"se",
+				"setTimeout"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"Name",
+				"NamesMask"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"Secon",
+				"SecondImage"
+			],
+			[
+				"Second",
+				"SecondContainer"
+			],
+			[
+				"css",
+				"css"
+			],
+			[
+				"Ma",
+				"Mask2.png\tw:678 h:1280"
+			],
+			[
+				"clip",
+				"clip-path\tproperty"
+			],
+			[
+				"Hal",
+				"HalfLogo2.png\tw:678 h:713"
+			],
+			[
+				"mak",
+				"Mask2.png\tw:678 h:1280"
+			],
+			[
+				"div",
+				"divcontainer"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"men",
+				"MenuCheck"
+			],
+			[
+				"Men",
+				"MenuCheck"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Theme",
+				"Theme"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"clic",
+				"clickTheme"
+			],
+			[
+				"ge",
+				"getThis"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"chrome",
+				"chrome64"
+			],
+			[
+				"Icon",
+				"Icon.png\tw:377 h:211"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"aling",
+				"align-self\tproperty"
+			],
+			[
+				"g",
+				"rgba()\tbackground"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"mai",
+				"margin-top\tproperty"
+			],
+			[
+				"co",
+				"table-caption\tdisplay"
+			],
+			[
+				"fel",
+				"inline-flex\tdisplay"
+			],
+			[
+				"ta",
+				"table-column\tdisplay"
+			],
+			[
+				"r",
+				"right\tbackground"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"tra",
+				"transition-duration\tproperty"
+			],
+			[
+				"CO",
+				"color\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"textc",
+				"text-decoration\tproperty"
+			],
+			[
+				"text-",
+				"text-indent\tproperty"
+			],
+			[
+				"sl",
+				"style\tTag"
+			],
+			[
+				"e",
+				"height\tproperty"
+			],
+			[
+				"text-deco",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"te",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"sp",
+				"script\tTag"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remvoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"vie",
+				"View In Browser"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"instg",
+				"Package Control: Install Package"
+			],
+			[
+				"thme",
+				"UI: Select Theme"
+			],
+			[
+				"lista",
+				"Package Control: List Packages"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"colorpick",
+				"Color Picker: Insert Color"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syta",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"SASS",
+				"Set Syntax: SCSS"
+			],
+			[
+				"packe",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"clear",
+			"git add ."
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/AsllaM/Desktop/Complacency-Class"
+	],
+	"file_history":
+	[
+		"/C/Users/AsllaM/Desktop/Complacency-Class/.gitignore",
+		"/C/Users/AsllaM/Desktop/Complacency-Class/app.js",
+		"/C/Users/AsllaM/Desktop/Complacency-Class/configs/jwt.js",
+		"/C/Users/AsllaM/Desktop/Complacency-Class/configs/Express.js",
+		"/C/Users/AsllaM/Desktop/Complacency-Class/package.json",
+		"/C/Users/AsllaM/Desktop/Complacency-Class/configs/database.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/SCSS/Register.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/Register.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/SCSS/ModelPags.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/404-NOTFOUND.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/app.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/package.json",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/LandingPage.html",
+		"/C/wamp64/www/Complacency-Class/.gitignore",
+		"/C/Users/AsllaM/Downloads/24_10_2020_19_48_45_sample.json",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/notas",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/JS/MainScript.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/JS/Register.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/CSS/MainStyle.css",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/HTML/LandingPage.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/HTML/Register.html",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/SCSS/Register.scss",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS/Register.js",
+		"/C/wamp64/www/Complacency-Class/Site/Front-End/JS/MainScript.js",
+		"/C/wamp64/www/node-aula/server.js",
+		"/C/wamp64/www/node-aula/src/models/Product.js",
+		"/C/Users/AsllaM/Downloads/lobizabikers.github.io-main/index.html",
+		"/C/wamp64/www/node-aula/package.json",
+		"/C/Users/AsllaM/Documents/WindowsPowerShell/profile.ps1",
+		"/C/Users/AsllaM/Desktop/RockSeatAula/index.html",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Animation.scss",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Positions.scss",
+		"/C/wamp64/www/Portfolio_New/Front-End/Script/MainScript1.js",
+		"/C/wamp64/www/Portfolio_New/Front-End/Home.html",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Colors0.scss",
+		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/P.scss",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/AutoAligner/README.md",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Installed Packages/Icon Fonts (Legacy).sublime-package",
+		"/C/wamp64/www/Portfolio_New/Front-End/Script/Babel.js",
+		"/C/Users/AsllaM/Desktop/Work.bat",
+		"/C/Users/AsllaM/Desktop/Work.txt",
+		"/C/wamp64/www/.gitconfig",
+		"/C/Users/PICHAU/Downloads/steamwd.user.js",
+		"/C/wamp64/www/Portfolio_New/Front-End/CSS/Positions.css",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/casa.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/perfil.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/ideia.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/bate-papo.svg",
+		"/C/wamp64/www/Portfolio_New/Design/Icons/MainMenu/apresentacao.svg",
+		"/C/Users/PICHAU/Downloads/Facebook-app-clone-master/README.md",
+		"/C/Users/PICHAU/Downloads/Facebook-app-clone-master/App.js",
+		"/C/Users/PICHAU/Desktop/res.html",
+		"/C/Users/PICHAU/Downloads/Wallpapers/wallpaper.engine.build.1.1.341-MestreTM/projects/myprojects/1737624516/project.json",
+		"/C/Users/PICHAU/Downloads/Wallpapers/wallpaper.engine.build.1.1.341-MestreTM/projects/myprojects/progress_or_die/project.json",
+		"/C/Users/PICHAU/Downloads/Wallpapers/TranslucentTB-release/README.md",
+		"/C/Users/PICHAU/Desktop/teste.html",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/money.m",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/restart.r",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/escape.t",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/fear.t",
+		"/C/Users/PICHAU/Documents/Darkness/_meaning/hope.t",
+		"/C/Users/PICHAU/Desktop/teste",
+		"/C/wamp64/www/Portfolio_New/.gitignore",
+		"/C/wamp64/www/Portfolio_New/Front-End/AnimationTest.html",
+		"/C/wamp64/www/Portfolio_New/.git/MERGE_MSG",
+		"/C/wamp64/www/Portfolio_New/Front-End/CSS/Colors0.css",
+		"/C/wamp64/www/Portfolio_New/Front-End/Script/MainsScript2.js",
+		"/C/wamp64/www/Portfolio_New/Design/Mask.png",
+		"/C/Users/PICHAU/.bash_profile",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainScript1.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design0.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Home.html",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design1.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design1.css",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design2.scss",
+		"/C/Users/PICHAU/Videos/Gravações/2020-08-01 10-12-27.mp4",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainsScript2.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainScript.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design.css",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design2.css",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/Default (Windows).sublime-keymap",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/README.md",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-commands",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/README.md",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/bin/colorpick",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/git_bash.py",
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Installed Packages/SideBarEnhancements.sublime-package",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Home.html",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Script/MainScript.js",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/SCSS/Design.scss",
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/CSS/Design.css",
+		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/SCSS/Design.scss",
+		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/Home.html",
+		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/CSS/Design.css",
+		"/C/Users/PICHAU/Desktop/Projetos/MainMenu - Aula Akira/Home.css",
+		"/C/Program Files/Git/ReleaseNotes.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Projeto1/HTML/Motos.html",
+		"/C/Users/PICHAU/Desktop/Projetos/MainMenu - Aula Akira/Home.html",
+		"/C/Users/PICHAU/Desktop/(4) 🏖️ SUMMER Weight Lifting Simulator 4 - Roblox.html",
+		"/C/Users/PICHAU/AppData/Local/Temp/Al - Salvar para Web/Esboço-Canal_001.tmp/Esboço-Canal.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Relógio/home.html",
+		"/C/Users/PICHAU/Desktop/Projetos/Relógio/home.css",
+		"/C/Users/PICHAU/Downloads/alo.html",
+		"/C/Users/PICHAU/Desktop/Site Teclado/TecladoHome.html",
+		"/C/Users/PICHAU/Desktop/Site Teclado/HomeTeclado.html",
+		"/C/Users/PICHAU/Desktop/aula.html",
+		"/C/Steam/userdata/258651364/218620/remote/save000.sav",
+		"/C/Steam/userdata/258651364/218620/remote/save098.sav",
+		"/C/Users/PICHAU/Desktop/PW/HTML/Index - Marcelo Heinrick Romeiro Senna Info-A.html",
+		"/C/Users/PICHAU/Desktop/PW/CSS/Home.css",
+		"/C/Users/PICHAU/Desktop/PW/HTML/Index.html",
+		"/C/Users/PICHAU/Desktop/PW/IMG"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			".TopMenu",
+			"../..",
+			"li:",
+			"li",
+			"<a href=\"#BoxCadastro\">",
+			")+')').",
+			"class=\"AdvancedRegister\"",
+			"input",
+			"Menu.js",
+			"(9)",
+			"(10)",
+			"50",
+			"label><br><i",
+			"#BoxCadastro",
+			"label><input",
+			"placeholder",
+			"place",
+			"Mail",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Projeto.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Home.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
