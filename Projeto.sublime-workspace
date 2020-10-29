@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "views/LandingPage.html",
+			"settings":
+			{
+				"buffer_size": 6776,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -662,10 +671,24 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/AsllaM/Desktop/Complacency-Class"
+		"/C/wamp64/www/Complacency-Class"
 	],
 	"file_history":
 	[
+		"/C/Users/AsllaM/Documents/WindowsPowerShell/profile.ps1",
+		"/C/Work.bat",
+		"/C/Users/AsllaM/Desktop/Work.bat",
+		"/C/Users/AsllaM/Desktop/HideBat.vbs",
+		"/C/Users/AsllaM/Desktop/Privilégio.reg",
+		"/C/Users/AsllaM/Desktop/PhotoshopCS6Portable.exe",
+		"/C/Program Files/Photoshop CS6/AutoPlay/Docs/PhotoshopCS6Portable.ini",
+		"/C/Program Files/Photoshop CS6/AutoPlay/Docs/App/PhotoshopCS6/Photoshop.exp",
+		"/C/Program Files/Photoshop CS6/AutoPlay/Docs/PhotoshopCS6Portable.exe",
+		"/C/Program Files/Photoshop CS6/AutoPlay/PSCS6.cdd",
+		"/C/Program Files/Photoshop CS6/AutoPlay/Docs/App/AppInfo/appinfo.ini",
+		"/C/Program Files/Photoshop CS6/AutoPlay/Docs/CS6.exe",
+		"/C/Users/AsllaM/Desktop/Abrir PhotoShop.xml",
+		"/C/Users/AsllaM/Documents/WindowsPowerShell/hidecmd.vbs",
 		"/C/Users/AsllaM/Desktop/Complacency-Class/.gitignore",
 		"/C/Users/AsllaM/Desktop/Complacency-Class/app.js",
 		"/C/Users/AsllaM/Desktop/Complacency-Class/configs/jwt.js",
@@ -696,7 +719,6 @@
 		"/C/wamp64/www/node-aula/src/models/Product.js",
 		"/C/Users/AsllaM/Downloads/lobizabikers.github.io-main/index.html",
 		"/C/wamp64/www/node-aula/package.json",
-		"/C/Users/AsllaM/Documents/WindowsPowerShell/profile.ps1",
 		"/C/Users/AsllaM/Desktop/RockSeatAula/index.html",
 		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Animation.scss",
 		"/C/wamp64/www/Portfolio_New/Front-End/SCSS/Positions.scss",
@@ -714,7 +736,6 @@
 		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
 		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Installed Packages/Icon Fonts (Legacy).sublime-package",
 		"/C/wamp64/www/Portfolio_New/Front-End/Script/Babel.js",
-		"/C/Users/AsllaM/Desktop/Work.bat",
 		"/C/Users/AsllaM/Desktop/Work.txt",
 		"/C/wamp64/www/.gitconfig",
 		"/C/Users/PICHAU/Downloads/steamwd.user.js",
@@ -781,19 +802,7 @@
 		"/C/Users/PICHAU/Desktop/Projetos/Projeto1/HTML/Motos.html",
 		"/C/Users/PICHAU/Desktop/Projetos/MainMenu - Aula Akira/Home.html",
 		"/C/Users/PICHAU/Desktop/(4) 🏖️ SUMMER Weight Lifting Simulator 4 - Roblox.html",
-		"/C/Users/PICHAU/AppData/Local/Temp/Al - Salvar para Web/Esboço-Canal_001.tmp/Esboço-Canal.html",
-		"/C/Users/PICHAU/Desktop/Projetos/Relógio/home.html",
-		"/C/Users/PICHAU/Desktop/Projetos/Relógio/home.css",
-		"/C/Users/PICHAU/Downloads/alo.html",
-		"/C/Users/PICHAU/Desktop/Site Teclado/TecladoHome.html",
-		"/C/Users/PICHAU/Desktop/Site Teclado/HomeTeclado.html",
-		"/C/Users/PICHAU/Desktop/aula.html",
-		"/C/Steam/userdata/258651364/218620/remote/save000.sav",
-		"/C/Steam/userdata/258651364/218620/remote/save098.sav",
-		"/C/Users/PICHAU/Desktop/PW/HTML/Index - Marcelo Heinrick Romeiro Senna Info-A.html",
-		"/C/Users/PICHAU/Desktop/PW/CSS/Home.css",
-		"/C/Users/PICHAU/Desktop/PW/HTML/Index.html",
-		"/C/Users/PICHAU/Desktop/PW/IMG"
+		"/C/Users/PICHAU/AppData/Local/Temp/Al - Salvar para Web/Esboço-Canal_001.tmp/Esboço-Canal.html"
 	],
 	"find":
 	{
@@ -847,8 +856,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "views/LandingPage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5799,
+								5799
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1271.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
