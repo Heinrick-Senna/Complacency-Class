@@ -23,6 +23,10 @@ app.get('/complacencyclass.com.br/Registro', function(req, res) {
   res.sendFile(__dirname + '/views/Register.html');
 });
 
+app.get('/complacencyclass.com.br/Login', function(req, res) {
+  res.sendFile(__dirname + '/views/Login.html');
+});
+
 
 // Erro 404
 app.use(function(req, res, next) {

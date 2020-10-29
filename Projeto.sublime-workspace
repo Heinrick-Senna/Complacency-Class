@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
-				"ba",
-				"background-color"
+				"res",
+				"results"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"model",
+				"modelUser"
 			],
 			[
 				"mar",
-				"margin-left"
+				"margin"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"mode",
+				"modelUser"
+			],
+			[
+				"use",
+				"userController"
+			],
+			[
+				"ba",
+				"background-color"
 			],
 			[
 				"MAR",
@@ -34,10 +58,6 @@
 			[
 				"req",
 				"req"
-			],
-			[
-				"re",
-				"RegisterBoxBackward"
 			],
 			[
 				"c",
@@ -138,10 +158,6 @@
 			[
 				"va",
 				"value"
-			],
-			[
-				"user",
-				"usernick"
 			],
 			[
 				"l",
@@ -498,36 +514,11 @@
 			[
 				"text-deco",
 				"text-decoration-color\tproperty"
-			],
-			[
-				"te",
-				"text-decoration-style\tproperty"
-			],
-			[
-				"met",
-				"meta\tTag"
-			],
-			[
-				"sp",
-				"script\tTag"
-			],
-			[
-				"box",
-				"box-shadow\tproperty"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "views/LandingPage.html",
-			"settings":
-			{
-				"buffer_size": 6776,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -541,6 +532,30 @@
 		"selected_items":
 		[
 			[
+				"insta",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"giti",
+				"Gitignore: New gitignore"
+			],
+			[
+				"Git",
+				"Set Syntax: Git Ignore"
+			],
+			[
+				"git",
+				"Set Syntax: Git Config"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
 			],
@@ -549,16 +564,8 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"list",
 				"Package Control: List Packages"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"theme",
@@ -621,10 +628,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"syta",
 				"Set Syntax: JavaScript"
 			],
@@ -675,6 +678,18 @@
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Login.scss",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Register.scss",
+		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
+		"/C/wamp64/www/Complacency-Class/views/Login.html",
+		"/C/wamp64/www/Complacency-Class/src/controllers/user.js",
+		"/C/wamp64/www/Complacency-Class/app.js",
+		"/C/wamp64/www/Complacency-Class/views/404-NOTFOUND.html",
+		"/C/wamp64/www/Complacency-Class/views/LandingPage.html",
+		"/C/wamp64/www/Complacency-Class/views/Register.html",
+		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/markupsafe/dependency-metadata.json",
+		"/C/wamp64/www/Complacency-Class/.gitignore",
+		"/C/wamp64/www/Complacency-Class/config/jwt.js",
 		"/C/Users/AsllaM/Documents/WindowsPowerShell/profile.ps1",
 		"/C/Work.bat",
 		"/C/Users/AsllaM/Desktop/Work.bat",
@@ -703,7 +718,6 @@
 		"/C/wamp64/www/Complacency-Class/Site/Front-End/app.js",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End/package.json",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/LandingPage.html",
-		"/C/wamp64/www/Complacency-Class/.gitignore",
 		"/C/Users/AsllaM/Downloads/24_10_2020_19_48_45_sample.json",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/HTML/notas",
 		"/C/wamp64/www/Complacency-Class/Site/Front-End/public/JS/MainScript.js",
@@ -791,18 +805,7 @@
 		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/git_bash.py",
 		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Installed Packages/SideBarEnhancements.sublime-package",
 		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Home.html",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Script/MainScript.js",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/SCSS/Design.scss",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/CSS/Design.css",
-		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/SCSS/Design.scss",
-		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/Home.html",
-		"/C/Users/PICHAU/Desktop/Projetos Git/Teste1/Front-End/CSS/Design.css",
-		"/C/Users/PICHAU/Desktop/Projetos/MainMenu - Aula Akira/Home.css",
-		"/C/Program Files/Git/ReleaseNotes.html",
-		"/C/Users/PICHAU/Desktop/Projetos/Projeto1/HTML/Motos.html",
-		"/C/Users/PICHAU/Desktop/Projetos/MainMenu - Aula Akira/Home.html",
-		"/C/Users/PICHAU/Desktop/(4) 🏖️ SUMMER Weight Lifting Simulator 4 - Roblox.html",
-		"/C/Users/PICHAU/AppData/Local/Temp/Al - Salvar para Web/Esboço-Canal_001.tmp/Esboço-Canal.html"
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Script/MainScript.js"
 	],
 	"find":
 	{
@@ -820,6 +823,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\t\t\t.",
 			".TopMenu",
 			"../..",
 			"li:",
@@ -856,37 +860,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "views/LandingPage.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6776,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5799,
-								5799
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1271.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

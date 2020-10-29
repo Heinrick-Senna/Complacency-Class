@@ -6,6 +6,7 @@
 	<title>Complacency Class</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/CSS/MainStyle.css">
+	<link rel="stylesheet" type="text/css" href="/CSS/Login.css">
 </head>
 <body>
 
@@ -54,8 +55,8 @@
 							<div style="display: none; top: -45vh" class="TopMenu">
 								<ul>
 									<a href="/complacencyclass.com.br/Registro"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Profile.svg"><span>Perfil</span></li></a>
-									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Help.svg"><span>Ajuda</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/SwitchAcc.svg"><span>Mudar Conta</span></li></a>
+									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Help.svg"><span>Ajuda</span></li></a>
+									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/SwitchAcc.svg"><span>Mudar Conta</span></li></a>
 									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
 									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/ProfileConfigs.svg"><span>Configurações</span></li></a>
 								</ul>
@@ -64,7 +65,7 @@
 							<div style="display: none; top: -45vh" class="TopMenu">
 								<ul>
 									<a href="complacencyclass.com.br"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Home.svg"><span>Ínicio</span></li></a>
-									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Explore.svg"><span>Explorar</span></li></a>
+									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Explore.svg"><span>Explorar</span></li></a>
 									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/History.svg"><span>Histórico</span></li></a>
 									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
 									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Configs.svg"><span>Configurações</span></li></a>
@@ -78,7 +79,25 @@
 		</div>
 </section>
 
-
+<!-- Corpo da Página -->
+<div class="container">
+	<div class="row mt-3">
+			<div class="col-0 col-sm-2 col-md-3"></div>
+			<div class="col-0 col-sm-8 col-md-6">
+				<div class="px-3 pt-3 pb-1 mb-5" id="BoxLogin">				
+					<p id="BoxTitle" align="center">Realize Seu Login</p>
+					<nav>
+						<form action="/complacencyclass.com.br/login_completo" method="POST">
+							<li><label for="username">Username</label><input type="text" name="username" required/></li>
+							<li><label for="password">Senha</label><input type="password" name="password" required/></li>
+							<button type="submit">Login</button>
+						</form>
+					</nav>
+					<p align="center">Não tem um cadastro? Então faça seu <a href="/complacencyclass.com.br/Registro">Registro</a></p>
+				</div>
+			</div>
+	</div>
+</div>
 
 
 

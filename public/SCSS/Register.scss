@@ -1,13 +1,9 @@
-@mixin mainAnimation {
-	transition: all 200ms ease-out;
-}
-
 #BoxCadastro {
-		list-style: none;
-		background-color: rgba(230,230,240,.7);
-		border-radius   : 10px;
-		transition: all 300ms ease;
-		box-shadow: .2vw .2vw 1vw -.1vw rgba(0,0,0,.9);
+	list-style: none;
+	background-color: rgba(230,230,240,.7);
+	border-radius   : 10px;
+	transition: all 300ms ease;
+	box-shadow: .2vw .2vw 1vw -.1vw rgba(0,0,0,.9);
 
 	svg {
 		position: absolute;
@@ -40,7 +36,7 @@
 		font             : bold 1.5rem Verdana;
 		text-shadow      : .3vh .3vh .1vw black;
 		box-shadow       : 0 .5vw .5vw 0vw rgba(0,0,0,.5);
-		@include mainAnimation;
+		transition       : all 200ms ease-out;
 		&:first-of-type {
 			background-color: rgb(88,229,232);
 		}

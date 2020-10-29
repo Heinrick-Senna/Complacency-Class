@@ -10,7 +10,23 @@ userController.allUsers = (req, res) => {
 		.catch(err => res.send(err));
 }
 
-module.exports = userController;
+userController.loginUser = (req, res) => {
+	if (req.body.username && req.body.password) {
+		modelUser.find({ 'username': req.body.username })
+			.then(results => {
+					let bool = bcrypt.compareSync(req.body.password, results[0].password);
+					if (bool == false) {
+						res.json({sucess: false, message: 'Senha incorreta' });
+					} else {
+						res.json({sucess: true, message: 'Logado!' });
+					}
+			})
+			.catch(err => res.send('Esse nome de usuário não existe'));	
+
+	} else {
+		res.json({sucess: false, message: 'Você precisa de um usuário ou senha'});
+	}
+}
 
 userController.newUser = (req, res) => {
 	if (req.body.username && req.body.password) {
@@ -20,7 +36,7 @@ userController.newUser = (req, res) => {
 				.then(user => {
 
 					if (user) {
-						res.json({success: false, message: 'This username has no avaliable'});
+						res.json({success: false, message: 'Esse nome de usuário não está disponível'});
 					
 					} else {
 
@@ -37,16 +53,18 @@ userController.newUser = (req, res) => {
 								});
 
 								newUser.save()
-									.then(() => res.json({ success: true, message: 'User created with success', statusCode: 201 }))
+									.then(() => res.json({ success: true, message: 'Usuário criado com sucesso', statusCode: 201 }))
 									.catch(() => res.json({ success: false, message: err, statusCode: 500}));
 							})
 							.catch(err => res.json({ success:false, message: err, statusCode: 500}));
 					}
 				});
 		} else {
-			res.json({ success:false, message: 'Passwords doenst match', statusCode: 400});
+			res.json({ success:false, message: 'Senhas não corespondem', statusCode: 400});
 		}
 	} else {
-		res.json({ success:false, message: 'Username and password fields are required', statusCode: 400});
+		res.json({ success:false, message: 'Você precisa de um usuário ou senha', statusCode: 400});
 	}
 }
+
+module.exports = userController;
