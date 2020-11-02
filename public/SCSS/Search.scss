@@ -1,0 +1,41 @@
+.ListBox {
+	width: 100%;
+	background-color: transparent;
+	#ListItens {
+		display              : grid;
+		grid-template-columns: 50% 50%;
+		padding-bottom       : 4vh;
+		list-style: none;
+		background-color: none;
+		span {
+			margin-left: 1vw;
+		}
+		a {
+			font: bold 1vw Arial;
+			color: black;
+			text-decoration: none;
+		}
+		li {
+							  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+			padding: 2% 2%;
+			width: 90%;
+			border-radius: 1vw;
+			transition: all 250ms ease-in;
+			cursor: pointer;
+			img {
+				width: 5%;
+			}
+			&:hover  {
+				background-color: #B3B3B3;
+			}
+		}
+	}
+}
+
+#Footer {
+	position: relative;
+}

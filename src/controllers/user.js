@@ -16,20 +16,20 @@ userController.loginUser = (req, res) => {
 			.then(results => {
 					let bool = bcrypt.compareSync(req.body.password, results[0].password);
 					if (bool == false) {
-						res.json({sucess: false, message: 'Senha incorreta' });
+						res.json({success: false, message: 'Senha incorreta' });
 					} else {
-						res.json({sucess: true, message: 'Logado!' });
+						res.json({success: true, message: 'Logado!' });
 					}
 			})
 			.catch(err => res.send('Esse nome de usuário não existe'));	
 
 	} else {
-		res.json({sucess: false, message: 'Você precisa de um usuário ou senha'});
+		res.json({success: false, message: 'Você precisa de um usuário ou senha'});
 	}
 }
 
 userController.newUser = (req, res) => {
-	if (req.body.username && req.body.password) {
+	if (req.body.username && req.body.password && req.body.username2) {
 		if (req.body.password2 && req.body.password == req.body.password2) {
 
 			modelUser.findOne({ 'username': req.body.username })
@@ -53,7 +53,7 @@ userController.newUser = (req, res) => {
 								});
 
 								newUser.save()
-									.then(() => res.json({ success: true, message: 'Usuário criado com sucesso', statusCode: 201 }))
+									.then(() => res.json({ success: true, message: 'Usuário criado com successo', statusCode: 201 }))
 									.catch(() => res.json({ success: false, message: err, statusCode: 500}));
 							})
 							.catch(err => res.json({ success:false, message: err, statusCode: 500}));

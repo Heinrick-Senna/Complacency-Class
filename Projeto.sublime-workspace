@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"Pro",
+				"ProfileMenu"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"res",
 				"results"
 			],
@@ -14,10 +30,6 @@
 			[
 				"model",
 				"modelUser"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"user",
@@ -46,10 +58,6 @@
 			[
 				"tex",
 				"text-shadow\tproperty"
-			],
-			[
-				"max",
-				"max-height\tproperty"
 			],
 			[
 				"ac",
@@ -316,10 +324,6 @@
 				"attr"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"pa",
 				"pageCallled"
 			],
@@ -510,15 +514,37 @@
 			[
 				"e",
 				"height\tproperty"
-			],
-			[
-				"text-deco",
-				"text-decoration-color\tproperty"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/Login.ejs",
+			"settings":
+			{
+				"buffer_size": 7659,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 735,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -674,18 +700,28 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp64/www/Complacency-Class"
+		"/C/wamp64/www/Complacency-Class",
+		"/C/wamp64/www/Complacency-Class/public",
+		"/C/wamp64/www/Complacency-Class/src",
+		"/C/wamp64/www/Complacency-Class/views"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/Complacency-Class/server.js",
+		"/C/wamp64/www/Complacency-Class/package.json",
+		"/C/wamp64/www/Complacency-Class/views/LandingPage.html",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Search.scss",
+		"/C/wamp64/www/Complacency-Class/views/SearchPage.ejs",
+		"/C/wamp64/www/Complacency-Class/src/controllers/user.js",
+		"/C/wamp64/www/Complacency-Class/src/models/user.js",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/ModelPags.scss",
+		"/C/wamp64/www/Complacency-Class/views/404-NOTFOUND.html",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Login.scss",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Register.scss",
 		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
 		"/C/wamp64/www/Complacency-Class/views/Login.html",
-		"/C/wamp64/www/Complacency-Class/src/controllers/user.js",
 		"/C/wamp64/www/Complacency-Class/app.js",
-		"/C/wamp64/www/Complacency-Class/views/404-NOTFOUND.html",
-		"/C/wamp64/www/Complacency-Class/views/LandingPage.html",
 		"/C/wamp64/www/Complacency-Class/views/Register.html",
 		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/markupsafe/dependency-metadata.json",
 		"/C/wamp64/www/Complacency-Class/.gitignore",
@@ -798,14 +834,7 @@
 		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
 		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/README.md",
 		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/bin/colorpick",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/git_bash.py",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Installed Packages/SideBarEnhancements.sublime-package",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Home.html",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Script/MainScript.js"
+		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings"
 	],
 	"find":
 	{
@@ -823,6 +852,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"var",
+			"app",
+			"var",
+			"sucess",
 			"\t\t\t.",
 			".TopMenu",
 			"../..",
@@ -860,8 +893,96 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/Login.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -1,6 +1,6 @@
 const express = require('express');
 const app = require('./config/express')();
-
+const passport = require('passport');
 
 require('./config/database');
 
@@ -15,20 +15,23 @@ app.listen(app.get('port'), () => {
 
 // Dando primeiro diretório
 app.get('/complacencyclass.com.br', function(req, res) {
-  res.sendFile(__dirname + '/views/LandingPage.html');
+  res.render(__dirname + "/views/LandingPage.ejs");
 });
 
 // Outros diretórios
 app.get('/complacencyclass.com.br/Registro', function(req, res) {
-  res.sendFile(__dirname + '/views/Register.html');
+  res.render(__dirname + "/views/Register.ejs");
 });
 
 app.get('/complacencyclass.com.br/Login', function(req, res) {
-  res.sendFile(__dirname + '/views/Login.html');
+  res.render(__dirname + "/views/Login.ejs");
 });
 
+app.get('/complacencyclass.com.br/Search', function(req,res){
+    res.render(__dirname + "/views/SearchPage.ejs");
+});
 
 // Erro 404
 app.use(function(req, res, next) {
-  res.sendFile(__dirname + '/views/404-NOTFOUND.html');
+	res.sendFile(__dirname + '/views/404-NOTFOUND.html');
 });
