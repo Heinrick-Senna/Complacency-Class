@@ -1,5 +1,5 @@
 jwtConfig = {
-	'secret': 'Marcelo'
+	'secret': 'Complacency-Class'
 }
 
 module.exports = jwtConfig;

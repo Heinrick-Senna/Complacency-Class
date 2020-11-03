@@ -5,13 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Complacency Class</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+	  crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="/CSS/MainStyle.css">
-	<link rel="stylesheet" type="text/css" href="/CSS/Register.css">
 </head>
 <body>
 
 	<!-- Barra fixa -->
-<section id="TopBar">
+<section id="TopBar" style="background-color: rgba(70,178,221,1)!important;">
 		<div class="container">
 			<div class="row">
 				
@@ -54,21 +57,20 @@
 
 							<div style="display: none; top: -45vh" class="TopMenu">
 								<ul>
-									<a href="/complacencyclass.com.br/Registro"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Profile.svg"><span>Perfil</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Help.svg"><span>Ajuda</span></li></a>
+									<a href="/complacencyclass.com.br/Registro"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Profile.svg"><span>{{sessionstring.[0]}}</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Help.svg"><span>Ajuda</span></li></a>
 									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/SwitchAcc.svg"><span>Mudar Conta</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/ProfileConfigs.svg"><span>Configurações</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/ProfileConfigs.svg"><span>Configurações</span></li></a>
 								</ul>
 							</div>
 
 							<div style="display: none; top: -45vh" class="TopMenu">
 								<ul>
 									<a href="/complacencyclass.com.br"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Home.svg"><span>Ínicio</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Explore.svg"><span>Explorar</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/History.svg"><span>Histórico</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Configs.svg"><span>Configurações</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Explore.svg"><span>Explorar</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/History.svg"><span>Histórico</span></li></a>
+									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>{{sessionstring.[1]}}</span></li></a>
 								</ul>
 							</div>
 					</div>
@@ -80,45 +82,13 @@
 </section>
 
 <!-- Corpo da Página -->
-<div class="container">
-	<div class="row mt-3">
-			<div class="col-0 col-sm-2 col-md-3"></div>
-			<div class="col-0 col-sm-8 col-md-6">
-				<div class="px-3 pt-3 pb-1 mb-5" id="BoxCadastro">				
-					<p id="BoxTitle" align="center">Escolha qual tipo de cadastro deseja realizar</p>
-					
-					<nav class="" style="display: none; opacity: 0;">
-						<form action="/complacencyclass.com.br/registro_completo" method="POST">
-							<li><label for="username">Nome</label><input type="text" name="username" required/></li>
-							<li><label for="Sobrenome">Sobrenome</label><input type="text" name="Sobrenome" required/></li>
-							<li><label for="Nascimento">Nascimento</label><input type="date" name="Nascimento" required/></li>
-							<li><label for="Telefone">Telefone</label><input type="number" name="Telefone" required/></li>
-							<li><label for="email">Email</label><input type="text" name="email" required/></li>
-							<li><label for="password">Senha</label><input type="password" name="password" required/></li>
-							<li><label for="password2">Confirme sua senha</label><input type="password" name="password2" required/></li>
-						</form>
-					</nav>
+{{{body}}}
 
-					<nav class="" style="display: ;">
-						<button class="ButtonSelect">Estudante</button>
-						<button class="ButtonSelect">Palestrante</button>
-					</nav>
-					<p align="center">Já tem um cadastro? Então faça seu <a href="#">login</a></p>
 
-								<!-- Datalist Temporário, precisa de linkagem com banco de dados -->
-								<datalist id="Escolas">
-								  <option>Escola 1</option>
-								  <option>Escola 2</option>
-								  <option>Escola 3</option>
-								  <option>Escola 4</option>
-								</datalist>
-				</div>
-			</div>
-	</div>
-</div>
+
 
 <!-- Rodapé -->
-<div id="Footer" style="position: absolute;">
+<div id="Footer">
 	<div class="container mt-3">
 		<img src="/Design/Objects/CircleFooter.svg">
 		<div class="row">
@@ -143,11 +113,7 @@
 	</div>
 </div>
 
+
 </body>
-<script
-  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
 <script type="text/javascript" src="/JS/MainScript.js"></script>
-<script type="text/javascript" src="/JS/Register.js"></script>
 </html>

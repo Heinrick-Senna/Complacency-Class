@@ -15,7 +15,7 @@ body {
 // Logo
 #Logo {
 	color         : white;
-	font          : bold 2.5vw Arial;
+	font          : bold 2.5rem Arial;
 	vertical-align: middle;
 	user-select   :none;
 }
@@ -92,6 +92,7 @@ body {
 .TopMenu {
 	position        : absolute;
 	right           : 0;
+	top: 100vh;
 	background-color: #F7F7F7;
 	border-radius   : 0 0 13px 13px;
 	box-shadow      : 0px 2px 2px rgba(0,0,0,.4);
@@ -174,7 +175,7 @@ body {
 }
  // Rodapé
 #Footer {
-	position        : relative;
+	position        : absolute;
 	width           : 100%;
 	min-height      : 18vh;
 	bottom          : 0;

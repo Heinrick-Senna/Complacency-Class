@@ -2,11 +2,12 @@ const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
 const modelUser = mongoose.model('User');
 
+
 let userController = {};
 
 userController.allUsers = (req, res) => {
 	modelUser.find()
-		.then(results => res.json(results))
+		.then(results => res.send(results))
 		.catch(err => res.send(err));
 }
 
@@ -47,13 +48,14 @@ userController.newUser = (req, res) => {
 
 								let newUser = new modelUser({
 									username: req.body.username,
+									username2: req.body.username2,
 									password: encryptedPassword,
 									email: req.body.email,
 									isAdmin: req.body.isAdmins
 								});
 
 								newUser.save()
-									.then(() => res.json({ success: true, message: 'Usuário criado com successo', statusCode: 201 }))
+									.then(() => res.render('RegisterComplete', {username: req.body.username + ' ' + req.body.username2}))
 									.catch(() => res.json({ success: false, message: err, statusCode: 500}));
 							})
 							.catch(err => res.json({ success:false, message: err, statusCode: 500}));

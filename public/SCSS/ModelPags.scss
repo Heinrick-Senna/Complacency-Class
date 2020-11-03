@@ -36,26 +36,25 @@
 #err404 {
 	user-select: none;
 	h1 {
-		font: bold 2.5vw Arial;
-		// margin-left: 12.5vw;
+		font: bold 2.5rem Arial;
 	}
 	#leftside h1 {
 		margin-left: 0!important;
 	}
 	p {
-		font: normal 1.5vw Verdana;
+		font: normal 1.5rem Verdana;
 	}
 	button {
 		background   : rgb(88,229,232);
 		border       : none;
 		outline      : none;
 		cursor       : pointer;
-		font         : bolder 1.5vw arial;
+		font         : bolder 1rem arial;
 		padding      : .8vh 0;
 		text-shadow  : .1vw .1vw .25vw black;
 		color        : white;
 		border-radius: 1vw;
-		width        : 18vw;
+		width        : 14rem;
 		margin-top   : 5vh;
 		box-shadow   : 0px .5vw .5vw -.25vw black;
 		transition   : all 250ms ease;
@@ -68,6 +67,15 @@
 	}
 	img {
 		margin-top: -5vh;
-		width: 30vw;
+		width: 23.5rem;
+	}
+}
+
+@media(max-width:980px) {
+	svg {
+		display: none;
+	}
+	div svg {
+		display: initial!important;
 	}
 }

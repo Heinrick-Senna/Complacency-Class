@@ -1,0 +1,66 @@
+#InfoBox1, #InfoBox2 {
+	margin-top           : 2rem;
+	width                : 100%;
+	background-color     : rgba(230,230,240,.7);
+	border-radius        : 1vw;
+	transition           : all 300ms ease;
+	display              : grid;
+	grid-template-columns: 50% 50%;
+	padding              : 3%;
+	box-shadow   : .1vw .5vw .5vw -.3vw black;
+	p {
+		text-transform: uppercase;
+		user-select  : none;
+		color        : #B4B4B4;
+		background   : white;
+		box-shadow   : .1vw .2vw .3vw -.1vw black;
+		border-radius: .4vw;
+		width        : 90%;
+		text-align   : center;
+		font         : normal 1.75em Agency FB;
+		&:first-of-type, &:nth-of-type(4) {
+			grid-column-start: 1!important;
+			grid-column-end  : 3!important;
+			width: 100%;
+			margin-left: 0!important;
+		}
+		&:nth-of-type(3n+3) {
+			margin-left: 10%;
+		}
+	}
+}
+
+#PicBox {
+	margin-top: 2rem;
+	color : black;
+	user-select     : none;
+	width           : 100%;
+	background-color: rgba(230,230,240,.7);
+	border-radius   : 1vw;
+	transition      : all 300ms ease;
+	box-shadow      : .1vw .5vw .5vw -.3vw black;
+	img {
+		border-radius: 10vw;
+		width        : 40%;
+		margin       : 5%;
+		box-shadow   : .5vw .75vw .5vw -.3vw rgba(0,0,0,.6);
+	}
+	p {
+		font  : bold 1.75rem Arial;
+		padding-bottom: 2vh;
+	}
+	& ~ a {
+		color : black;
+		font  : bold 1.75rem Arial;
+		cursor: pointer;
+		p {
+			margin-top: 1.5vh;
+		}
+	}
+}
+
+@media(max-width: 768px) {
+	#InfoBox1 p, #InfoBox2 p {
+		font-size: 1rem;
+	}
+}
