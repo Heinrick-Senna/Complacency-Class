@@ -5,12 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Complacency Class</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+	  crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="/CSS/MainStyle.css">
 </head>
 <body>
 
 	<!-- Barra fixa -->
-<section id="TopBar">
+<section id="TopBar" style="background-color: rgba(70,178,221,1)!important;">
 		<div class="container">
 			<div class="row">
 				
@@ -53,21 +57,20 @@
 
 							<div style="display: none; top: -45vh" class="TopMenu">
 								<ul>
-									<a href="/complacencyclass.com.br/Registro"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Profile.svg"><span>Perfil</span></li></a>
-									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Help.svg"><span>Ajuda</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/SwitchAcc.svg"><span>Mudar Conta</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/ProfileConfigs.svg"><span>Configurações</span></li></a>
+									<a href="/complacencyclass.com.br/Registro"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Profile.svg"><span>{{sessionstring.[0]}}</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/Help.svg"><span>Ajuda</span></li></a>
+									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/SwitchAcc.svg"><span>Mudar Conta</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/ProfileMenu/ProfileConfigs.svg"><span>Configurações</span></li></a>
 								</ul>
 							</div>
 
 							<div style="display: none; top: -45vh" class="TopMenu">
 								<ul>
-									<a href="complacencyclass.com.br"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Home.svg"><span>Ínicio</span></li></a>
-									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Explore.svg"><span>Explorar</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/History.svg"><span>Histórico</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>Sair</span></li></a>
-									<a href=""><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Configs.svg"><span>Configurações</span></li></a>
+									<a href="/complacencyclass.com.br"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Home.svg"><span>Ínicio</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Explore.svg"><span>Explorar</span></li></a>
+									<a href="#"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/History.svg"><span>Histórico</span></li></a>
+									<a href="/complacencyclass.com.br/Login"><li tabindex="0"><img src="/Design/Objects/TopMenu/MainMenu/Exit.svg"><span>{{sessionstring.[1]}}</span></li></a>
 								</ul>
 							</div>
 					</div>
@@ -78,9 +81,8 @@
 		</div>
 </section>
 
-
-
-
+<!-- Corpo da Página -->
+{{{body}}}
 
 
 
@@ -111,10 +113,7 @@
 	</div>
 </div>
 
+
 </body>
-<script
-  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
 <script type="text/javascript" src="/JS/MainScript.js"></script>
 </html>

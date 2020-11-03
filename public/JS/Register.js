@@ -11,7 +11,7 @@ $(window).ready(function() {
 });
 
 function RegisterBoxSwitch (condition) {
-	$('#Footer').removeAttr('style');
+	$('#Footer').css('position', 'relative');
 	if (condition != 0) {
 		$('#BoxCadastro p:first-of-type').html('Cadastro De Palestrante');
 		$('#BoxCadastro form').append(
@@ -40,7 +40,7 @@ function RegisterBoxSwitch (condition) {
 }
 
 function RegisterBoxBackward () {
-	$('#Footer').css('position', 'absolute');
+	$('#Footer').removeAttr('style');
 		var Buttons = $('#BoxCadastro nav:nth-of-type(2)'),
 			baseForm = $('#BoxCadastro nav:first-of-type');
 

@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"us",
+				"username2"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"c",
+				"uppercase"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"Pro",
+				"ProfileMenu"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"res",
 				"results"
 			],
@@ -14,10 +90,6 @@
 			[
 				"model",
 				"modelUser"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"user",
@@ -44,24 +116,8 @@
 				"link\tTag"
 			],
 			[
-				"tex",
-				"text-shadow\tproperty"
-			],
-			[
-				"max",
-				"max-height\tproperty"
-			],
-			[
 				"ac",
 				"action\tAttr"
-			],
-			[
-				"req",
-				"req"
-			],
-			[
-				"c",
-				"condition"
 			],
 			[
 				"d",
@@ -94,10 +150,6 @@
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"al",
-				"text-align"
 			],
 			[
 				"hei",
@@ -136,10 +188,6 @@
 				"outline-color"
 			],
 			[
-				"bo",
-				"bottom"
-			],
-			[
 				"rg",
 				"rgb()"
 			],
@@ -172,20 +220,8 @@
 				"getElementsByTagName"
 			],
 			[
-				"s",
-				"script\tTag"
-			],
-			[
-				"fon",
-				"font"
-			],
-			[
 				"border",
 				"border-radius"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"cli",
@@ -210,10 +246,6 @@
 			[
 				"ram",
 				"randomC"
-			],
-			[
-				"di",
-				"div\tTag"
 			],
 			[
 				"remove",
@@ -316,10 +348,6 @@
 				"attr"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"pa",
 				"pageCallled"
 			],
@@ -362,10 +390,6 @@
 			[
 				"Name",
 				"NamesMask"
-			],
-			[
-				"mari",
-				"margin-left"
 			],
 			[
 				"Secon",
@@ -432,10 +456,6 @@
 				"getThis"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"chrome",
 				"chrome64"
 			],
@@ -494,26 +514,6 @@
 			[
 				"paddin",
 				"padding-top\tproperty"
-			],
-			[
-				"textc",
-				"text-decoration\tproperty"
-			],
-			[
-				"text-",
-				"text-indent\tproperty"
-			],
-			[
-				"sl",
-				"style\tTag"
-			],
-			[
-				"e",
-				"height\tproperty"
-			],
-			[
-				"text-deco",
-				"text-decoration-color\tproperty"
 			]
 		]
 	},
@@ -674,22 +674,43 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp64/www/Complacency-Class"
 	],
 	"file_history":
 	[
-		"/C/wamp64/www/Complacency-Class/public/SCSS/Login.scss",
-		"/C/wamp64/www/Complacency-Class/public/SCSS/Register.scss",
-		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
-		"/C/wamp64/www/Complacency-Class/views/Login.html",
+		"/C/wamp64/www/Complacency-Class/src/models/user.js",
+		"/C/wamp64/www/Complacency-Class/views/layouts/main.handlebars",
 		"/C/wamp64/www/Complacency-Class/src/controllers/user.js",
+		"/C/wamp64/www/Complacency-Class/views/notfound.handlebars",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/ModelPags.scss",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/CompleteTask.scss",
+		"/C/wamp64/www/Complacency-Class/views/RegisterComplete.handlebars",
 		"/C/wamp64/www/Complacency-Class/app.js",
-		"/C/wamp64/www/Complacency-Class/views/404-NOTFOUND.html",
+		"/C/wamp64/www/Complacency-Class/views/Register.handlebars",
+		"/C/wamp64/www/Complacency-Class/views/LandingPage.handlebars",
+		"/C/wamp64/www/Complacency-Class/public/JS/MainScript.js",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Perfil.scss",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/views/Perfil.handlebars",
+		"/C/wamp64/www/Complacency-Class/views/Upload.handlebars",
+		"/C/wamp64/www/Complacency-Class/config/express.js",
+		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Register.scss",
+		"/C/wamp64/www/Complacency-Class/views/Login.handlebars",
+		"/C/wamp64/www/Complacency-Class/config/jwt.js",
+		"/C/wamp64/www/Complacency-Class/views/SearchPage.handlebars",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Search.scss",
+		"/C/wamp64/www/Complacency-Class/package.json",
+		"/C/wamp64/www/Complacency-Class/views/Login.ejs",
+		"/C/wamp64/www/Complacency-Class/public/JS/Register.js",
+		"/C/wamp64/www/Complacency-Class/server.js",
 		"/C/wamp64/www/Complacency-Class/views/LandingPage.html",
+		"/C/wamp64/www/Complacency-Class/views/SearchPage.ejs",
+		"/C/wamp64/www/Complacency-Class/views/404-NOTFOUND.html",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Login.scss",
+		"/C/wamp64/www/Complacency-Class/views/Login.html",
 		"/C/wamp64/www/Complacency-Class/views/Register.html",
 		"/C/Users/AsllaM/AppData/Roaming/Sublime Text 3/Packages/markupsafe/dependency-metadata.json",
 		"/C/wamp64/www/Complacency-Class/.gitignore",
-		"/C/wamp64/www/Complacency-Class/config/jwt.js",
 		"/C/Users/AsllaM/Documents/WindowsPowerShell/profile.ps1",
 		"/C/Work.bat",
 		"/C/Users/AsllaM/Desktop/Work.bat",
@@ -783,29 +804,7 @@
 		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design0.scss",
 		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Home.html",
 		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design1.scss",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design1.css",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design2.scss",
-		"/C/Users/PICHAU/Videos/Gravações/2020-08-01 10-12-27.mp4",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainsScript2.js",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/Script/MainScript.js",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design.css",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/SCSS/Design.scss",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design2.css",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/Default (Windows).sublime-keymap",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/README.md",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-commands",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/README.md",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/ColorPick/bin/colorpick",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Packages/User/git_bash.py",
-		"/C/Users/PICHAU/AppData/Roaming/Sublime Text 3/Installed Packages/SideBarEnhancements.sublime-package",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Home.html",
-		"/C/Users/PICHAU/Desktop/Projetos_Git/Teste1/Front-End/Script/MainScript.js"
+		"/C/Users/PICHAU/Desktop/Projetos_Git/Portfolio_New/Front-End/CSS/Design1.css"
 	],
 	"find":
 	{
@@ -823,6 +822,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"session.",
+			"session)",
+			"session",
+			"6",
+			"var",
+			"app",
+			"var",
+			"sucess",
 			"\t\t\t.",
 			".TopMenu",
 			"../..",
@@ -871,7 +878,7 @@
 	},
 	"input":
 	{
-		"height": 63.0
+		"height": 64.0
 	},
 	"layout":
 	{

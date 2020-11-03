@@ -1,0 +1,38 @@
+<div class="container">
+	<div class="row mt-3 mt-lg-5">
+			<div class="col-0 col-sm-2 col-md-3"></div>
+			<div class="col-0 col-sm-8 col-md-6">
+				<div class="px-3 pt-3 pb-1 mb-5" id="BoxCadastro">				
+					<p id="BoxTitle" align="center">Escolha qual tipo de cadastro deseja realizar</p>
+					
+					<nav class="" style="display: none; opacity: 0;">
+						<form action="/complacencyclass.com.br/registro_completo" method="POST">
+							<li><label for="username">Nome</label><input type="text" name="username" maxlength="50" required/></li>
+							<li><label for="username2">Sobrenome</label><input type="text" name="username2" maxlength="50" required/></li>
+							<li><label for="Nascimento">Nascimento</label><input type="date" name="Nascimento" required/></li>
+							<li><label for="Telefone">Telefone</label><input type="number" name="Telefone" required/></li>
+							<li><label for="email">Email</label><input type="text" name="email" required/></li>
+							<li><label for="password">Senha</label><input type="password" name="password" required/></li>
+							<li><label for="password2">Confirme sua senha</label><input type="password" name="password2" required/></li>
+						</form>
+					</nav>
+
+					<nav class="" style="display: ;">
+						<button class="ButtonSelect">Estudante</button>
+						<button class="ButtonSelect">Palestrante</button>
+					</nav>
+					<p align="center">Já tem um cadastro? Então faça seu <a href="#">login</a></p>
+
+								<!-- Datalist Temporário, precisa de linkagem com banco de dados -->
+								<datalist id="Escolas">
+								  <option>Escola 1</option>
+								  <option>Escola 2</option>
+								  <option>Escola 3</option>
+								  <option>Escola 4</option>
+								</datalist>
+				</div>
+			</div>
+	</div>
+</div>
+<link rel="stylesheet" type="text/css" href="/CSS/Register.css">
+<script type="text/javascript" src="/JS/Register.js"></script>
