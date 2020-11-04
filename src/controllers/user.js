@@ -1,7 +1,9 @@
 const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
 const modelUser = mongoose.model('User');
-
+const flash = require('connect-flash');
+const express = require('express');
+const app = express();
 
 let userController = {};
 
@@ -12,20 +14,37 @@ userController.allUsers = (req, res) => {
 }
 
 userController.loginUser = (req, res) => {
-	if (req.body.username && req.body.password) {
+	erros = [];
+
+	if (!req.body.username || typeof req.body.username == undefined || req.body.username == null) {
+		erros.push({ texto: 'Usuário válido'});
+	}
+
+	if (!req.body.password || typeof req.body.password == undefined || req.body.password == null) {
+		erros.push({ texto: 'Senha Inválida'});
+	}
+
+	if (erros.length > 0) {
+		res.render('Login', { erros: erros})
+	} else {
 		modelUser.find({ 'username': req.body.username })
-			.then(results => {
+			.then((results) => {
 					let bool = bcrypt.compareSync(req.body.password, results[0].password);
 					if (bool == false) {
-						res.json({success: false, message: 'Senha incorreta' });
+						var erro = [];
+						erros.push({ texto: 'Senha Incorreta!'});
+						res.render('Login', { erros: erros});
 					} else {
-						res.json({success: true, message: 'Logado!' });
+						req.flash('success_msg', 'Usuário Logado!')
+						res.redirect('/complacencyclass.com.br')
 					}
 			})
-			.catch(err => res.send('Esse nome de usuário não existe'));	
+			.catch((err) => {
+				var erro = [];
+					erros.push({ texto: err});
+					res.render('Login', { erros: erros});
+			});
 
-	} else {
-		res.json({success: false, message: 'Você precisa de um usuário ou senha'});
 	}
 }
 

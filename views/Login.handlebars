@@ -1,3 +1,7 @@
+{{#each erros}}
+	<div><p>{{texto}}</p></div>
+{{/each}}
+
 <div class="container">
 	<div class="row mt-3">
 			<div class="col-0 col-sm-2 col-md-3"></div>
@@ -5,9 +9,9 @@
 				<div class="px-3 pt-3 pb-1 mb-5" id="BoxLogin">				
 					<p id="BoxTitle" align="center">Realize Seu Login</p>
 					<nav>
-						<form action="/complacencyclass.com.br/login_completo" method="POST">
-							<li><label for="username">Username</label><input type="text" name="username" required/></li>
-							<li><label for="password">Senha</label><input type="password" name="password" required/></li>
+						<form action="/complacencyclass.com.br/login_incompleto" method="POST">
+							<li><label for="username">Username</label><input type="text" name="username"/></li>
+							<li><label for="password">Senha</label><input type="password" name="password"/></li>
 							<button type="submit">Login</button>
 						</form>
 					</nav>

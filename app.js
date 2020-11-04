@@ -12,19 +12,24 @@ require('./config/database');
 	        resave: true,
 	        saveUninitialized: true
    		 }));
+		app.use(flash());
 	// Middleware
-		// app.use((req, res, next) => {
-		// 	res.locals.name = '';
-		// })
+		app.use((req, res, next) => {
+			res.locals.success_msg =  req.flash('success_msg');
+			res.locals.err_msg =  req.flash('err_msg');
+			next();
+		})
 
 
 	// Template
 		app.engine('handlebars', handlebars({defaultLayout: 'main'}));
 		app.set('view engine', 'handlebars');
 
+
 // Static para os arquivos da pasta /public
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
+
 
 // iniciando Servidor
 app.listen(app.get('port'), () => {
@@ -32,19 +37,16 @@ app.listen(app.get('port'), () => {
 });
 
 
-var sessionstring = {  
-	sessionstring: ['Registrar', 'Login'],
-	logged: ['Adminstador']
-};
+
 
 // Dando primeiro diretório
 app.get('/complacencyclass.com.br', function(req, res) {
-  res.render('LandingPage', sessionstring);
+  res.render('LandingPage');
 });
 
 // Outros diretórios
 app.get('/complacencyclass.com.br/Registro', function(req, res) {
-  res.render('Register', sessionstring);
+  res.render('Register');
 });
 
 app.get('/testapi', function(req, res){
@@ -52,18 +54,18 @@ app.get('/testapi', function(req, res){
 });
 
 app.get('/complacencyclass.com.br/Login', function(req, res) {
-  res.render('Login', sessionstring);
+  res.render('Login');
 });
 
 app.get('/complacencyclass.com.br/perfilTeste', function(req, res) {
-	res.render('Perfil', sessionstring);
+	res.render('Perfil');
 });
 
 app.get('/complacencyclass.com.br/Search', function(req,res){
-    res.render('SearchPage', sessionstring);
+    res.render('SearchPage');
 });
 
 // Erro 404
-app.use((req, res, next) => {
-	res.render('notfound', sessionstring);
-})
+// app.use((req, res, next) => {
+	
+// })
