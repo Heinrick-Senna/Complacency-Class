@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Nunito;
+  url: ('https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap');
+}
 #BoxCadastro {
 	list-style: none;
 	background-color: rgba(230,230,240,.7);
@@ -33,7 +37,7 @@
 		border           : solid .2vw transparent;
 		border-radius    : .75vw;
 		color            : white;
-		font             : bold 1.5rem Verdana;
+		font             : bold 1.5rem Nunito !important;
 		text-shadow      : .3vh .3vh .1vw black;
 		box-shadow       : 0 .5vw .5vw 0vw rgba(0,0,0,.5);
 		transition       : all 200ms ease-out;
@@ -53,11 +57,11 @@
 	p {
 		user-select: none;
 		&:first-of-type {
-			font: normal 2rem Agency FB;
+			font: normal 2rem Nunito;
 		}
 		&:nth-of-type(2) {
 			margin-top: 8vh;
-			font      : bold .75rem Verdana;	
+			font      : bold .75rem Nunito;	
 		}
 	}
 
@@ -134,4 +138,6 @@
 	nav {
 		transition: opacity 300ms ease-out;
 	}
+
+	
 }
