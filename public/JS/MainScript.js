@@ -1,4 +1,6 @@
 $(window).ready(function(){
+
+
 	$('#MenuIcons svg').keydown(function(key){
 		if (key.keyCode === 13) {  //checks whether the pressed key is "Enter"
         callMenus (this, parseInt(this.getAttribute('id').replace(/[^0-9]/g, '')));
