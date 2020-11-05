@@ -2,55 +2,51 @@
 	width : 100%;
 	min-height: 100vh;
 	margin-top: 0;
-	&:nth-of-type(2) {
+	padding-bottom: 3rem;
+	&:nth-of-type(n+2) {
+		color: white;
 		user-select: none;
 		background: linear-gradient(180deg, rgba(70,178,221,1) 0%, rgba(97,255,214,1) 100%);
 		h1 {
-			color: white;
-			font: bold 2.5rem Nunito;
+			font: bold 3.2rem Nunito;
 		}
 		p {
-			color: white;
-			font: normal 1.5rem Nunito;
+			font: normal 2rem Nunito;
 		}
 		img {
 			margin-top: -2vh;
-			width: 23.5em;
+			width: 28em;
 		}
 	}
-	&:nth-of-type(3) {
-		user-select: none;
-		background-image: url("../Desing/Draw/Fundo.svg");
-		h1 {
-			color: white;
-			font: bold 2.5rem Nunito;
+	&:nth-of-type(3){
+		color: black;
+		background: none;
+		h1:first-of-type {
+			font: bold 2.7rem Nunito;
 		}
 		p {
-			color: white;
-			font: normal 1.5rem Nunito;
+			padding: 1vw;
+			font: normal 1rem Nunito;
+			background-color: white;
+			border-radius: 1vw;
+			margin-top: 6vh!important;
 		}
-		img {
-			margin-top: -2vh;
-			width: 23.5em;
+		#Sub2Model {
+			font: normal 1.2rem Nunito;
+			margin-top: -.5rem!important;
+			background-color: transparent;
+			padding: 0;
+		}
+		#Sub1Model {
+			font: normal 1.7rem Nunito;
+			background-color: transparent;
+			margin: 0!important;
+			padding: 0;
 		}
 	}
-
-
-
 	&:nth-of-type(4) {
-		background: linear-gradient(180deg, rgba(70,178,221,1) 0%, rgba(97,255,214,1) 100%);
-		h1 {
-			color: white;
-			font: bold 2.5rem Nunito;
-		}
-		p {
-			color: white;
-			font: normal 1.5rem Nunito;
-		}
-		img {
-			margin-top: -2vh;
-			width: 23.5em;
-		}
+		background: rgba(88,229,232,1);
+}
 }
 
 @media(max-width: 768px) {

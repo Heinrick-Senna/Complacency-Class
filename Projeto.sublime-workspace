@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
 				"margin",
 				"margin-left\tproperty"
 			],
 			[
 				"cons",
 				"console"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"ma",
@@ -86,10 +90,6 @@
 			[
 				"flash",
 				"flash"
-			],
-			[
-				"bac",
-				"background-repeat"
 			],
 			[
 				"di",
@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "public/SCSS/MainStyle.scss",
+			"settings":
+			{
+				"buffer_size": 4973,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -674,11 +683,19 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp64/www/Complacency-Class"
+		"/C/wamp64/www/Complacency-Class",
+		"/C/wamp64/www/Complacency-Class/public",
+		"/C/wamp64/www/Complacency-Class/public/SCSS",
+		"/C/wamp64/www/Complacency-Class/views",
+		"/C/wamp64/www/Complacency-Class/views/layouts"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/Complacency-Class/public/SCSS/ModelPags.scss",
+		"/C/wamp64/www/Complacency-Class/views/LandingPage.hbs",
+		"/C/wamp64/www/Complacency-Class/views/layouts/main.hbs",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/views/Upload.hbs",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Register.scss",
 		"/C/wamp64/www/Complacency-Class/.gitignore",
 		"/C/wamp64/www/Complacency-Class/.env",
@@ -696,7 +713,6 @@
 		"/C/wamp64/www/Complacency-Class/views/Login.handlebars",
 		"/C/wamp64/www/Complacency-Class/views/LandingPage.handlebars",
 		"/C/wamp64/www/Complacency-Class/views/layouts/main.handlebars",
-		"/C/wamp64/www/Complacency-Class/public/SCSS/ModelPags.scss",
 		"/C/wamp64/www/Complacency-Class/.env.example",
 		"/C/wamp64/www/Complacency-Class/views/notfound.handlebars",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Msgs.scss",
@@ -802,10 +818,7 @@
 		"/C/Users/PICHAU/Documents/Darkness/_meaning/escape.t",
 		"/C/Users/PICHAU/Documents/Darkness/_meaning/fear.t",
 		"/C/Users/PICHAU/Documents/Darkness/_meaning/hope.t",
-		"/C/Users/PICHAU/Desktop/teste",
-		"/C/wamp64/www/Portfolio_New/.gitignore",
-		"/C/wamp64/www/Portfolio_New/Front-End/AnimationTest.html",
-		"/C/wamp64/www/Portfolio_New/.git/MERGE_MSG"
+		"/C/Users/PICHAU/Desktop/teste"
 	],
 	"find":
 	{
@@ -871,8 +884,427 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/SCSS/MainStyle.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4973,
+						"regions":
+						{
+							"col_00000019":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2792,
+										2806
+									]
+								],
+								"scope": "col_00000019"
+							},
+							"col_00000019_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000019_circle.png",
+								"regions":
+								[
+									[
+										2774,
+										2774
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_0000003F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1042,
+										1057
+									]
+								],
+								"scope": "col_0000003F"
+							},
+							"col_0000003F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000003F_circle.png",
+								"regions":
+								[
+									[
+										1016,
+										1016
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00000059":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										332,
+										347
+									]
+								],
+								"scope": "col_00000059"
+							},
+							"col_00000059_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000059_circle.png",
+								"regions":
+								[
+									[
+										295,
+										295
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00000066":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1956,
+										1970
+									]
+								],
+								"scope": "col_00000066"
+							},
+							"col_00000066_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000066_circle.png",
+								"regions":
+								[
+									[
+										1925,
+										1925
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										611,
+										616
+									],
+									[
+										2278,
+										2283
+									],
+									[
+										2655,
+										2660
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										592,
+										592
+									],
+									[
+										2268,
+										2268
+									],
+									[
+										2636,
+										2636
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_022F38FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3831,
+										3838
+									]
+								],
+								"scope": "col_022F38FF"
+							},
+							"col_022F38FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_022F38FF_circle.png",
+								"regions":
+								[
+									[
+										3812,
+										3812
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_46B2DDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										265,
+										283
+									],
+									[
+										3189,
+										3207
+									]
+								],
+								"scope": "col_46B2DDFF"
+							},
+							"col_46B2DDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_46B2DDFF_circle.png",
+								"regions":
+								[
+									[
+										247,
+										247
+									],
+									[
+										3173,
+										3173
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_58E5E8FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3601,
+										3608
+									]
+								],
+								"scope": "col_58E5E8FF"
+							},
+							"col_58E5E8FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_58E5E8FF_circle.png",
+								"regions":
+								[
+									[
+										3581,
+										3581
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_626262FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1709,
+										1716
+									]
+								],
+								"scope": "col_626262FF"
+							},
+							"col_626262FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_626262FF_circle.png",
+								"regions":
+								[
+									[
+										1693,
+										1693
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_CCCCCCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										940,
+										944
+									]
+								],
+								"scope": "col_CCCCCCFF"
+							},
+							"col_CCCCCCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_CCCCCCFF_circle.png",
+								"regions":
+								[
+									[
+										927,
+										927
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F7F7F7FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										203,
+										210
+									],
+									[
+										1882,
+										1889
+									]
+								],
+								"scope": "col_F7F7F7FF"
+							},
+							"col_F7F7F7FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F7F7F7FF_circle.png",
+								"regions":
+								[
+									[
+										190,
+										190
+									],
+									[
+										1863,
+										1863
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFF01":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										352,
+										371
+									]
+								],
+								"scope": "col_FFFFFF01"
+							},
+							"col_FFFFFF01_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFF01_circle.png",
+								"regions":
+								[
+									[
+										295,
+										295
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										440,
+										445
+									],
+									[
+										637,
+										642
+									],
+									[
+										1637,
+										1642
+									],
+									[
+										3895,
+										3900
+									],
+									[
+										4070,
+										4075
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										423,
+										423
+									],
+									[
+										618,
+										618
+									],
+									[
+										1630,
+										1630
+									],
+									[
+										3887,
+										3887
+									],
+									[
+										4057,
+										4057
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								4780,
+								4780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3352.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
