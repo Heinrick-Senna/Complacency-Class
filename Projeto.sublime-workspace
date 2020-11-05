@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 56,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -683,22 +674,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp64/www/Complacency-Class",
-		"/C/wamp64/www/Complacency-Class/config",
-		"/C/wamp64/www/Complacency-Class/public",
-		"/C/wamp64/www/Complacency-Class/public/SCSS",
-		"/C/wamp64/www/Complacency-Class/src",
-		"/C/wamp64/www/Complacency-Class/src/controllers",
-		"/C/wamp64/www/Complacency-Class/src/routes",
-		"/C/wamp64/www/Complacency-Class/views",
-		"/C/wamp64/www/Complacency-Class/views/layouts",
-		"/C/wamp64/www/Complacency-Class/views/partials"
+		"/C/wamp64/www/Complacency-Class"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/Complacency-Class/public/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/Register.scss",
+		"/C/wamp64/www/Complacency-Class/.gitignore",
+		"/C/wamp64/www/Complacency-Class/.env",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Login.scss",
 		"/C/wamp64/www/Complacency-Class/views/VideoViews.hbs",
-		"/C/wamp64/www/Complacency-Class/public/SCSS/MainStyle.scss",
 		"/C/wamp64/www/Complacency-Class/views/VideoViews.handlebars",
 		"/C/wamp64/www/Complacency-Class/app.js",
 		"/C/wamp64/www/Complacency-Class/views/partials/msg.hbs",
@@ -709,8 +694,6 @@
 		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
 		"/C/wamp64/www/Complacency-Class/config/express.js",
 		"/C/wamp64/www/Complacency-Class/views/Login.handlebars",
-		"/C/wamp64/www/Complacency-Class/.gitignore",
-		"/C/wamp64/www/Complacency-Class/.env",
 		"/C/wamp64/www/Complacency-Class/views/LandingPage.handlebars",
 		"/C/wamp64/www/Complacency-Class/views/layouts/main.handlebars",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/ModelPags.scss",
@@ -727,7 +710,6 @@
 		"/C/wamp64/www/Complacency-Class/views/Register.handlebars",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Perfil.scss",
 		"/C/wamp64/www/Complacency-Class/views/Upload.handlebars",
-		"/C/wamp64/www/Complacency-Class/public/SCSS/Register.scss",
 		"/C/wamp64/www/Complacency-Class/views/SearchPage.handlebars",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Search.scss",
 		"/C/wamp64/www/Complacency-Class/package.json",
@@ -889,37 +871,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 56,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								51,
-								51
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/Git.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
