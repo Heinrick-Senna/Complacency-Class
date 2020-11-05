@@ -2,8 +2,8 @@ const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
 const modelUser = mongoose.model('User');
 const flash = require('connect-flash');
-const express = require('express');
-const app = express();
+require("dotenv-safe").config();
+var jwt = require('jsonwebtoken');
 
 let userController = {};
 
@@ -35,8 +35,13 @@ userController.loginUser = (req, res) => {
 						erros.push({ texto: 'Senha Incorreta!'});
 						res.render('Login', { erros: erros});
 					} else {
-						req.flash('success_msg', 'Usuário Logado!')
-						res.redirect('/complacencyclass.com.br')
+						const id = results[0].id; //esse id viria do banco de dados
+					      var token = jwt.sign({ id }, process.env.SECRET, {
+					        expiresIn: 300 // expires in 5min
+					      });
+					      req.flash('success_msg', 'Usuário Logado!');
+					      req.flash('token', token);
+					      res.redirect('/complacencyclass.com.br');
 					}
 			})
 			.catch((err) => {

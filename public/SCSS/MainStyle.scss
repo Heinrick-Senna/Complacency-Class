@@ -92,40 +92,51 @@ body {
 .TopMenu {
 	position        : absolute;
 	right           : 0;
-	top: 100vh;
+	top             : 100vh;
 	background-color: #F7F7F7;
 	border-radius   : 0 0 13px 13px;
 	box-shadow      : 0px 2px 2px rgba(0,0,0,.4);
 	text-align      : left;
 	margin-bottom   : 10%;
 	transition      : all .5s ease;
-	padding         : 0;
+	padding         : 0!important;
 	z-index         : 5;
- 
 	ul {
-		margin-left: -5%;
+		margin-left: 0;
 		list-style : none;
 		user-select: none;
 		outline    : none;
-		width      : 100%;
+		padding: 0 5% 0 5%;
+		display: block;
 		a {
 			background-color: none;
 			color: black;
 			text-decoration: none;
+			margin: 0;
+			&:first-child {
+				li:first-child {
+					margin-top: .75rem!important;
+				}
+			}
+			&:last-child {
+				li:last-child {
+					margin-bottom: .75rem!important;
+				}
+			}
 		}
 	}
 
 	li {
-		width  : 100%;
-		padding: 5% 0 5% 5%;
-		margin : 5% 0 0 -5%;
+		min-width: 100%;
+		padding: 5%;
+		margin-top: 5%;
 		outline: none;
 		cursor : pointer;
 		@include mainAnimation;
 		span {
 			color         : black;
 			font          : bold 16px Arial;
-			margin-left   : 8%;
+			margin-left   : 4em;
 			vertical-align: middle;
 		}
 		&:focus, &:hover {
@@ -135,27 +146,39 @@ body {
 		}
 	}
 
-	img {
-		max-width: 15%;
-		padding  : 0;
+	&:nth-of-type(1) {
+			max-height   : 43vh;
+			overflow     : auto;
+			overflow-x   : hidden;
+			border-radius: 0 0 0 1vw;
+		img {
+			max-width: 15%;
+			padding: 0;
+		}
+		 ul span {
+			margin-left: 4%;
+			font       : normal 1em Arial;
+		}
+		name {
+			margin-left: 2%;
+			font       : normal .85em Arial;
+			color      : rgba(70,178,221,1);
+		}
 	}
 
-	&:first-of-type ul span {
-		margin-left: 4%;
-		font       : normal 12px Arial;
-	}
-
-	&:first-of-type name {
-		margin-left: 2%;
-		font       : normal 12px Arial;
-		color      : rgba(70,178,221,1);
-	}
-
-	&:first-of-type {
-		max-height   : 43vh;
-		overflow     : auto;
-		overflow-x   : hidden;
-		border-radius: 0 0 0 13px;
+	&:nth-of-type(2), &:nth-of-type(3) {
+		max-width: 50%;
+		li {
+			display: inline-block;
+		}
+		img {
+			max-width: 1.75rem;
+			padding: 0;
+		}
+		 ul span {
+			margin-left: .25em;
+			font       : bold 1em Arial;
+		}
 	}
 
 	&::-webkit-scrollbar   {
@@ -168,11 +191,8 @@ body {
 		background-color: #58E5E8;
 		width           : 2px;
 	}
-
-	li:last-of-type {
-	 	margin-bottom: 5%;
-	}
 }
+
  // Rodapé
 #Footer {
 	position        : absolute;
@@ -243,7 +263,7 @@ h3 {
 
 
 
-@media(max-width: 970px) {
+@media(max-width: 1024px) {
 	#Footer, #TopBar, .TopMenu {
 		position: relative!important;
 	}
@@ -252,7 +272,7 @@ h3 {
 		max-height: 75vh;
 	}
 
-	.TopMenu ul {
-		margin-left: 0;
+	.TopMenu {
+		max-width: 100%!important;
 	}
 }

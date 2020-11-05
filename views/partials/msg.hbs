@@ -5,11 +5,14 @@
 {{#if err_msg }}
 	<div class="MSGFLASH" id="errmsgflash">{{err_msg}}</div>
 {{/if}}
+
+{{#if token}}
+	<input type="hidden" name="token" value="{{token}}">
+{{/if}}
+
+
 <link rel="stylesheet" type="text/css" href="/CSS/Msgs.css">
 <script type="text/javascript">
-	window.onload = function () {
-		document.getElementsByClassName('MSGFLASH')[0].onclick = function(){
-			this.remove()
-		}
-	}
+	if (document.getElementsByClassName('MSGFLASH')[0]) 
+		document.getElementsByClassName('MSGFLASH')[0].onclick = function(){this.remove()};
 </script>
