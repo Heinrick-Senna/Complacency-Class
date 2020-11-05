@@ -17,7 +17,7 @@
 		border-radius: .4vw;
 		width        : 90%;
 		text-align   : center;
-		font         : normal 1.75em Agency FB;
+		font         : normal 1.75em Nunito;
 		&:first-of-type, &:nth-of-type(4) {
 			grid-column-start: 1!important;
 			grid-column-end  : 3!important;
@@ -46,12 +46,12 @@
 		box-shadow   : .5vw .75vw .5vw -.3vw rgba(0,0,0,.6);
 	}
 	p {
-		font  : bold 1.75rem Arial;
+		font  : bold 1.75rem Nunito;
 		padding-bottom: 2vh;
 	}
 	& ~ a {
 		color : black;
-		font  : bold 1.75rem Arial;
+		font  : bold 1.75rem Nunito;
 		cursor: pointer;
 		p {
 			margin-top: 1.5vh;

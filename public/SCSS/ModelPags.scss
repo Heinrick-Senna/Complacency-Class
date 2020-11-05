@@ -7,11 +7,11 @@
 		background: linear-gradient(180deg, rgba(70,178,221,1) 0%, rgba(97,255,214,1) 100%);
 		h1 {
 			color: white;
-			font: bold 2.5rem Arial;
+			font: bold 2.5rem Nunito;
 		}
 		p {
 			color: white;
-			font: normal 1.5rem Verdana;
+			font: normal 1.5rem Nunito;
 		}
 		img {
 			margin-top: -2vh;
@@ -22,11 +22,11 @@
 		user-select: none;
 		h1 {
 			color: white;
-			font: bold 2.5rem Arial;
+			font: bold 2.5rem Nunito;
 		}
 		p {
 			color: white;
-			font: normal 1.5rem Verdana;
+			font: normal 1.5rem Nunito;
 		}
 		img {
 			margin-top: -2vh;
@@ -55,20 +55,20 @@
 #err404 {
 	user-select: none;
 	h1 {
-		font: bold 2.5rem Arial;
+		font: bold 2.5rem Nunito;
 	}
 	#leftside h1 {
 		margin-left: 0!important;
 	}
 	p {
-		font: normal 1.5rem Verdana;
+		font: normal 1.5rem Nunito;
 	}
 	button {
 		background   : rgb(88,229,232);
 		border       : none;
 		outline      : none;
 		cursor       : pointer;
-		font         : bolder 1rem arial;
+		font         : bolder 1rem Nunito;
 		padding      : .8vh 0;
 		text-shadow  : .1vw .1vw .25vw black;
 		color        : white;
