@@ -20,6 +20,7 @@
 	}
 	&:nth-of-type(3) {
 		user-select: none;
+		background-image: url("../Desing/Draw/Fundo.svg");
 		h1 {
 			color: white;
 			font: bold 2.5rem Nunito;
@@ -37,8 +38,19 @@
 
 
 	&:nth-of-type(4) {
-		background: #58E5E8;
-	}
+		background: linear-gradient(180deg, rgba(70,178,221,1) 0%, rgba(97,255,214,1) 100%);
+		h1 {
+			color: white;
+			font: bold 2.5rem Nunito;
+		}
+		p {
+			color: white;
+			font: normal 1.5rem Nunito;
+		}
+		img {
+			margin-top: -2vh;
+			width: 23.5em;
+		}
 }
 
 @media(max-width: 768px) {
@@ -72,7 +84,7 @@
 		padding      : .8vh 0;
 		text-shadow  : .1vw .1vw .25vw black;
 		color        : white;
-		border-radius: 1vw;
+		border-radius: 5vw;
 		width        : 14rem;
 		margin-top   : 5vh;
 		box-shadow   : 0px .5vw .5vw -.25vw black;

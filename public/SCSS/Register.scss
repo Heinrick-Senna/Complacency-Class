@@ -7,7 +7,6 @@
 	background-color: rgba(230,230,240,.7);
 	border-radius   : 1vw;
 	transition: all 300ms ease;
-	box-shadow: .2vw .2vw 1vw -.1vw rgba(0,0,0,.9);
 
 	svg {
 		position: absolute;
@@ -20,11 +19,12 @@
 		}
 	}
 
+
 	.ButtonSelect {
 		min-height   : 4vh;
 		padding      : 1vh;
 		border       : solid .2vw transparent;
-		border-radius: 1vw!important;
+		border-radius: 5vw!important;
 	}
 
 	button {
@@ -35,10 +35,9 @@
 		outline          : none;
 		border-style     : none;
 		border           : solid .2vw transparent;
-		border-radius    : .75vw;
+		border-radius    : 5vw;
 		color            : white;
 		font             : bold 1.3rem Nunito !important;
-		box-shadow       : 0 .5vw .5vw 0vw rgba(0,0,0,.5);
 		transition       : all 200ms ease-out;
 		&:first-of-type {
 			background-color: rgb(88,229,232);
@@ -49,21 +48,26 @@
 		&:hover, &:focus {
 			border       : solid .2vw white;
 			outline      : none;
-			box-shadow   : none;
-		}
+			box-shadow   : none
+;		}
 	}
 
 	p {
 		user-select: none;
 		&:first-of-type {
 			font: normal 2rem Nunito;
+			font-size:2.125em;
 		}
 		&:nth-of-type(2) {
 			margin-top: 8vh;
-			font      : bold .75rem Nunito;	
+			font: normal 1em Nunito;	
 		}
 	}
+	a{
 
+		font: bold 1em Nunito;	
+		color: black;
+	}
 	form {
 		display              : grid;
 		grid-template-columns: 50% 50%;

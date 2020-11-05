@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "Msgs.css",
+	"sources": [
+		"../SCSS/Msgs.scss"
+	],
+	"sourcesContent": [
+		".MSGFLASH {\r\n\tbackground-color: rgba(39,236,114,0.47);\r\n\tpadding         : .5vw 1vw;\r\n\tposition        : absolute;\r\n\tleft            : 2%;\r\n\tborder-radius   : .75rem;\r\n\tcolor           : white;\r\n\ttext-shadow     : .1rem .1rem .1rem black;\r\n\tfont            : normal 1.75rem Nunito;\r\n\tbox-shadow      : .1vw .1vw .2vw white;\r\n\tcursor          : pointer;\r\n\ttransition      : all 250ms ease;\r\n\ttransition-delay: 25ms;\r\n\tuser-select     :none;\r\n\ttop: 10vh;\r\n\tz-index: 100000000000000000;\r\n\t&:hover {\r\n\t\tmargin-top      : -1vh;\r\n\t\ttransition-delay: 50ms;\r\n\t\tcolor           : red;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,SAAS,AAAC,CACT,gBAAgB,CAAE,qBAAqB,CACvC,OAAO,CAAW,QAAQ,CAC1B,QAAQ,CAAU,QAAQ,CAC1B,IAAI,CAAc,EAAE,CACpB,aAAa,CAAK,MAAM,CACxB,KAAK,CAAa,KAAK,CACvB,WAAW,CAAO,uBAAuB,CACzC,IAAI,CAAc,qBAAqB,CACvC,UAAU,CAAQ,oBAAoB,CACtC,MAAM,CAAY,OAAO,CACzB,UAAU,CAAQ,cAAc,CAChC,gBAAgB,CAAE,IAAI,CACtB,WAAW,CAAM,IAAI,CACrB,GAAG,CAAE,IAAI,CACT,OAAO,CAAE,kBAAkB,CAM3B,AArBD,AAgBC,SAhBQ,AAgBP,MAAM,AAAC,CACP,UAAU,CAAQ,IAAI,CACtB,gBAAgB,CAAE,IAAI,CACtB,KAAK,CAAa,GAAG,CACrB"
+}
