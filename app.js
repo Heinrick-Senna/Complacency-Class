@@ -86,8 +86,8 @@ app.get('/complacencyclass.com.br/Search', function(req,res){
     res.render('SearchPage');
 });
 
-app.get('/complacencyclass.com.br/Upload', function(req,res){
-    res.render('Upload', sessionstring);
+app.get('/complacencyclass.com.br/Explorar', function(req,res){
+    res.render('Explorar');
 });
 // Erro 404
 app.use((req, res, next) => {
