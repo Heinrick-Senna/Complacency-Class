@@ -22,6 +22,11 @@ body {
 	font          : bold 1.9rem Arial;
 	vertical-align: middle;
 	user-select   :none;
+	a{
+		text-decoration: none;
+		padding-top: 2vh;
+		color: white;
+	}
 }
 
 // Barra de Pesquisa
