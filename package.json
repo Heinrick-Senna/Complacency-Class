@@ -13,7 +13,7 @@
   "author": "Complacency Class Team Group",
   "license": "ISC",
   "devDependencies": {
-    "handlebars": "^4.5.0",
+    "handlebars": "^4.5.3",
     "nodemon": "^2.0.6"
   },
   "dependencies": {
