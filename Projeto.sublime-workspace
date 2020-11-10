@@ -519,13 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -688,6 +681,9 @@
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/Complacency-Class/.env",
+		"/C/wamp64/www/Complacency-Class/package.json",
+		"/C/wamp64/www/Complacency-Class/package-lock.json",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Home.scss",
 		"/C/wamp64/www/Complacency-Class/views/Home.hbs",
 		"/C/wamp64/www/Complacency-Class/src/models/user.js",
@@ -705,7 +701,6 @@
 		"/C/wamp64/www/Complacency-Class/views/Register.hbs",
 		"/C/wamp64/www/Complacency-Class/views/Login.hbs",
 		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
-		"/C/wamp64/www/Complacency-Class/package.json",
 		"/C/wamp64/www/Complacency-Class/public/JS/Explorer.js",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Explorer.scss",
 		"/C/wamp64/www/Complacency-Class/views/partials/msg.hbs",
@@ -714,7 +709,6 @@
 		"/C/wamp64/www/Complacency-Class/views/Profile.hbs",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Explorar.scss",
 		"/C/wamp64/www/Complacency-Class/views/Explorar.hbs",
-		"/C/wamp64/www/Complacency-Class/.env",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/ModelPags.scss",
 		"/C/wamp64/www/Complacency-Class/views/LandingPage.hbs",
 		"/C/wamp64/www/Complacency-Class/views/Upload.hbs",
@@ -814,8 +808,7 @@
 		"/C/wamp64/www/Portfolio_New/Front-End/Script/Babel.js",
 		"/C/Users/AsllaM/Desktop/Work.txt",
 		"/C/wamp64/www/.gitconfig",
-		"/C/Users/PICHAU/Downloads/steamwd.user.js",
-		"/C/wamp64/www/Portfolio_New/Front-End/CSS/Positions.css"
+		"/C/Users/PICHAU/Downloads/steamwd.user.js"
 	],
 	"find":
 	{
@@ -888,37 +881,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "C:\\wamp64\\www\\Complacency-Class\\public\\SCSS",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
