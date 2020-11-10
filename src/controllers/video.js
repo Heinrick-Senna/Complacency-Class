@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
-const modelVideo = mongoose.model('User');
+const modelVideo = mongoose.model('Video');
 
 let videoController = [];
 
 videoController.newVideo = (req, res) => {
 	if (req.body.videoname && req.body.thumb) {
-		modelUser.findOne({ 'videoname': req.body.username })
-			.then(user => {
-				if (user) {
+		modelVideo.findOne({ 'videoname': req.body.videoname })
+			.then(video => {
+				if (video) {
 					res.json({success: false, message: 'Esse nome de usuário não está disponível'});
 				} else {
 
@@ -16,12 +16,12 @@ videoController.newVideo = (req, res) => {
 									date: req.body.date,
 									thumb: req.body.thumb,
 									desc: req.body.desc,
-									author: req.body.author
+									author: 'teste'
 								});
 
 								newVideo.save()
-									.then(() => res.json({ success: true, message: 'O Vídeo foi cadastrado'});
-									.catch(() => res.json({ success: false, message: err, statusCode: 500}));
+									.then(() => res.json({ success: true, message: 'O Vídeo foi cadastrado'}))
+									.catch((err) => res.json({ success: false, message: err, statusCode: 500}));
 				}
 			});
 
@@ -35,8 +35,9 @@ videoController.enterVideo = (req, res) => {
 }
 
 videoController.allVideos = (req, res) => {
-	
-	res.render('Home');
+	modelVideo.find().lean()
+		.then((results) => res.render('Home', {video: results}))
+		.catch(err => res.send('Erro'));
 }
 
 module.exports = videoController;

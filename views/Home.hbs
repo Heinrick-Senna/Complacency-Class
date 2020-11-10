@@ -1,7 +1,12 @@
 <div class="container">
 	<div class="row">
-		<div class="col-12" id="VídeoExplorerX">
-			
+		<div class="col-12 VideoExplorer">
+			{{#each video}}
+			<div>
+				<img src="{{thumb}}"><h1>{{tittle}}</h1><p>{{author}}</p>
+			</div>
+				
+			{{/each}}
 		</div>
 	</div>
 </div>
@@ -16,8 +21,9 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-12" id="VídeoExplorerX">
-			
+		<div class="col-12 VideoExplorer" class="">
 		</div>
 	</div>
 </div>
+
+<link rel="stylesheet" type="text/css" href="/CSS/Home.css">
