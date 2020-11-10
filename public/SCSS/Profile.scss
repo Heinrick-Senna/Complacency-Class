@@ -2,7 +2,7 @@
 	margin-top           : 2rem;
 	width                : 100%;
 	background-color     : rgba(230,230,240,.7);
-	border-radius        : 5vw;
+	border-radius        : .5vw;
 	transition           : all 300ms ease;
 	display              : grid;
 	grid-template-columns: 50% 50%;
@@ -14,10 +14,10 @@
 		color        : #B4B4B4;
 		background   : white;
 		box-shadow   : .1vw .2vw .3vw -.1vw black;
-		border-radius: .5vw;
+		border-radius: .2vw;
 		width        : 90%;
 		text-align   : center;
-		font         : normal 1.75em Nunito;
+		font         : normal 1.5rem Nunito;
 		&:first-of-type, &:nth-of-type(4) {
 			grid-column-start: 1!important;
 			grid-column-end  : 3!important;
@@ -36,7 +36,7 @@
 	user-select     : none;
 	width           : 100%;
 	background-color: rgba(230,230,240,.7);
-	border-radius   : 5vw;
+	border-radius   : 1vw;
 	transition      : all 300ms ease;
 	box-shadow      : .1vw .5vw .5vw -.3vw black;
 	img {
@@ -59,8 +59,8 @@
 	}
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
 	#InfoBox1 p, #InfoBox2 p {
-		font-size: 1rem;
+		font-size: .75em;
 	}
 }

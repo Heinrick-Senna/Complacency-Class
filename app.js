@@ -39,8 +39,8 @@ app.listen(app.get('port'), () => {
 	console.log('Servidor rodando na porta 3001...');
 });
 
-function verifyJWT(req, res, next){
-  var token = req.body.token || req.query.token || req.headers['x-access-token'];
+function verifyJWT (req, res, next){
+ var token = req.body.token || req.query.token || res.getHeader('x-access-token');
 
   if (token) {
     jwt.verify(token, process.env.SECRET, (err, decoded) => {
@@ -48,7 +48,7 @@ function verifyJWT(req, res, next){
         return res.json({ success: false, message: 'Falha' });
       } else {
         req.decoded = decoded;
-        next()
+        next();
       }
     })
   } else {
@@ -56,39 +56,42 @@ function verifyJWT(req, res, next){
   }
 }
 
-// Dando primeiro diretório
-app.get('/complacencyclass.com.br', function(req, res) {
-  res.render('LandingPage');
+var indexdeacesso = 0,
+	indexderegistro = 0;
+
+
+// Primeiro Diretório
+app.get('/complacencyclass.com.br/', function(req, res) {
+	indexdeacesso++;
+	(indexdeacesso > 1) ? res.redirect('/complacencyclass.com.br/Home') : res.render('LandingPage');
 });
 
 // Outros diretórios
 app.get('/complacencyclass.com.br/Registro', function(req, res) {
-  res.render('Register');
+  	indexderegistro++;
+	(indexderegistro > 1) ? res.redirect('/complacencyclass.com.br/Perfil') : res.render('Register');;
 });
 
-app.get('/complacencyclass.com.br/Videotest', function(req, res){
+app.get('/complacencyclass.com.br/Upload', function(req, res) {
+  res.render('VideoCadastro');
+});
+
+app.get('/complacencyclass.com.br/Video', function(req, res){
 	res.render('VideoViews');
-});
-
-app.get('/complacencyclass.com.br/not', function(req, res) {
-  res.render('notfound');
 });
 
 app.get('/complacencyclass.com.br/Login', function(req, res) {
   res.render('Login');
 });
 
-app.get('/complacencyclass.com.br/perfilTeste', function(req, res) {
-	res.render('Perfil');
+app.get('/complacencyclass.com.br/Perfil', function(req, res) {
+	res.render('Profile');
 });
 
 app.get('/complacencyclass.com.br/Search', function(req,res){
     res.render('SearchPage');
 });
 
-app.get('/complacencyclass.com.br/Explorar', function(req,res){
-    res.render('Explorar');
-});
 // Erro 404
 app.use((req, res, next) => {
 	res.status(404).render('notfound');

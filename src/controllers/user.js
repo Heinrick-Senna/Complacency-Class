@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const modelUser = mongoose.model('User');
 const flash = require('connect-flash');
 require("dotenv-safe").config();
-var jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken');
+
 
 let userController = {};
 
@@ -40,7 +41,7 @@ userController.loginUser = (req, res) => {
 					        expiresIn: 300 // expires in 5min
 					      });
 					      req.flash('success_msg', 'Usuário Logado!');
-					      req.flash('token', token);
+					      res.setHeader('x-access-token', token);
 					      res.redirect('/complacencyclass.com.br');
 					}
 			})
@@ -75,7 +76,7 @@ userController.newUser = (req, res) => {
 									username2: req.body.username2,
 									password: encryptedPassword,
 									email: req.body.email,
-									isAdmin: req.body.isAdmins
+									isAdmin: false
 								});
 
 								newUser.save()

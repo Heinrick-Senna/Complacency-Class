@@ -7,12 +7,19 @@
 {{/if}}
 
 {{#if token}}
-	<input type="hidden" name="token" value="{{token}}">
+	<input type="hidden" id="token" name="token" value="{{token}}">
 {{/if}}
 
 
 <link rel="stylesheet" type="text/css" href="/CSS/Msgs.css">
 <script type="text/javascript">
-	if (document.getElementsByClassName('MSGFLASH')[0]) 
+	document.addEventListener("DOMContentLoaded", function() {
+		var token = document.getElementById('token').value;
+		sessionStorage.setItem('token', token);
+	});
+	window.onload = function() {
+		if (document.getElementsByClassName('MSGFLASH')[0]); 
 		document.getElementsByClassName('MSGFLASH')[0].onclick = function(){this.remove()};
+	}
+
 </script>
