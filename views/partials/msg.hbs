@@ -13,10 +13,6 @@
 
 <link rel="stylesheet" type="text/css" href="/CSS/Msgs.css">
 <script type="text/javascript">
-	document.addEventListener("DOMContentLoaded", function() {
-		var token = document.getElementById('token').value;
-		sessionStorage.setItem('token', token);
-	});
 	window.onload = function() {
 		if (document.getElementsByClassName('MSGFLASH')[0]); 
 		document.getElementsByClassName('MSGFLASH')[0].onclick = function(){this.remove()};

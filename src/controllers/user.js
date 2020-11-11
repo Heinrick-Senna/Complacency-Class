@@ -6,7 +6,9 @@ require("dotenv-safe").config();
 const jwt = require('jsonwebtoken');
 
 
+
 let userController = {};
+var iregister = 0;
 
 userController.allUsers = (req, res) => {
 	modelUser.find()
@@ -41,7 +43,7 @@ userController.loginUser = (req, res) => {
 					        expiresIn: 300 // expires in 5min
 					      });
 					      req.flash('success_msg', 'Usuário Logado!');
-					      res.setHeader('x-access-token', token);
+					      res.locals.token =  req.flash('token');
 					      res.redirect('/complacencyclass.com.br');
 					}
 			})
@@ -94,4 +96,4 @@ userController.newUser = (req, res) => {
 	}
 }
 
-module.exports = userController;
+module.exports = userController

@@ -5,6 +5,8 @@ const flash = require('connect-flash');
 const exphbs = require('express-handlebars');
 require("dotenv-safe").config();
 const jwt = require('jsonwebtoken');
+const videoController = require('./src/controllers/video');
+
 
 require('./config/database');
 // Config
@@ -16,12 +18,7 @@ require('./config/database');
    		 }));
 		app.use(flash());
 	// Middleware
-		app.use((req, res, next) => {
-			res.locals.success_msg =  req.flash('success_msg');
-			res.locals.err_msg =  req.flash('err_msg');
-			res.locals.token =  req.flash('token');
-			next();
-		})
+
 
 
 	// Template
@@ -39,7 +36,7 @@ app.listen(app.get('port'), () => {
 	console.log('Servidor rodando na porta 3001...');
 });
 
-function verifyJWT (req, res, next){
+function verifyJWT (req, res, next) {
  var token = req.body.token || req.query.token || res.getHeader('x-access-token');
 
   if (token) {
@@ -56,20 +53,41 @@ function verifyJWT (req, res, next){
   }
 }
 
-var indexdeacesso = 0,
-	indexderegistro = 0;
 
+var indexdeacesso = 0,
+    indexderegistro = null;
+   
 
 // Primeiro Diretório
+app.use((req, res, next) => {
+	res.locals.success_msg =  req.flash('success_msg');
+	res.locals.err_msg =  req.flash('err_msg');
+	if (indexderegistro) {
+		res.locals.topmenuicons = 'Perfil';
+		res.locals.topmenuicons2 = 'Sair';
+	} else {
+		res.locals.topmenuicons = 'Registro';
+		res.locals.topmenuicons2 = 'Login';
+	}
+	next();
+})
+
+
 app.get('/complacencyclass.com.br/', function(req, res) {
 	indexdeacesso++;
 	(indexdeacesso > 1) ? res.redirect('/complacencyclass.com.br/Home') : res.render('LandingPage');
+	if (res.locals.success_msg == 'Usuário Logado!') {
+		indexderegistro++;
+	}
 });
+
+app.route('/complacencyclass.com.br/Home')
+		.get(videoController.allVideos);
+
 
 // Outros diretórios
 app.get('/complacencyclass.com.br/Registro', function(req, res) {
-  	indexderegistro++;
-	(indexderegistro > 1) ? res.redirect('/complacencyclass.com.br/Perfil') : res.render('Register');;
+	(indexderegistro) ? res.redirect('/complacencyclass.com.br/Perfil') : res.render('Register');;
 });
 
 app.get('/complacencyclass.com.br/Upload', function(req, res) {

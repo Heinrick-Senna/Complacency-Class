@@ -1,9 +1,15 @@
 const userController = require('../controllers/user');
 const flash = require('connect-flash');
+const session = require('express-session');
 
 
 module.exports = (app) => {
-	app.use(flash());
+		app.use(session({
+	        secret: 'ComplacencyClassSession',
+	        resave: true,
+	        saveUninitialized: true
+   		 }));
+		app.use(flash());
 
 
 	app.route('/complacencyclass.com.br/registro_completo')
