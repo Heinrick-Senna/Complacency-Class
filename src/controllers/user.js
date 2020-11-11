@@ -43,7 +43,7 @@ userController.loginUser = (req, res) => {
 					        expiresIn: 300 // expires in 5min
 					      });
 					      req.flash('success_msg', 'Usuário Logado!');
-					      res.locals.token =  req.flash('token');
+					      req.flash('logged', req.body.username);
 					      res.redirect('/complacencyclass.com.br');
 					}
 			})

@@ -1,11 +1,12 @@
 const videoController = require('../controllers/video');
 const flash = require('connect-flash');
+const express = require('express');
 
 
 module.exports = (app) => {
 	app.use(flash());
 
-	app.route('/complacencyclass.com.br/video_cadastro')
+    app.route('/complacencyclass.com.br/video_cadastro')
 		.post(videoController.newVideo);
 
 	app.route('/complacencyclass.com.br/Video')
@@ -13,5 +14,5 @@ module.exports = (app) => {
 
 	app.route('/complacencyclass.com.br/Home')
 		.get(videoController.allVideos);
-
+  
 }

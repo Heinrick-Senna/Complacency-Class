@@ -36,58 +36,44 @@ app.listen(app.get('port'), () => {
 	console.log('Servidor rodando na porta 3001...');
 });
 
-function verifyJWT (req, res, next) {
- var token = req.body.token || req.query.token || res.getHeader('x-access-token');
-
-  if (token) {
-    jwt.verify(token, process.env.SECRET, (err, decoded) => {
-      if (err) {
-        return res.json({ success: false, message: 'Falha' });
-      } else {
-        req.decoded = decoded;
-        next();
-      }
-    })
-  } else {
-    return res.json({ message: 'Sem Token!'});
-  }
-}
-
-
-var indexdeacesso = 0,
-    indexderegistro = null;
+var indexderegistro = null;
    
 
 // Primeiro Diretório
 app.use((req, res, next) => {
 	res.locals.success_msg =  req.flash('success_msg');
 	res.locals.err_msg =  req.flash('err_msg');
-	if (indexderegistro) {
-		res.locals.topmenuicons = 'Perfil';
-		res.locals.topmenuicons2 = 'Sair';
+	if (res.locals.success_msg == 'Usuário Logado!') {
+		app.locals.topmenuicons = 'Perfil';
+		app.locals.topmenuicons2 = 'Sair';
+		var stringname = req.flash('logged');
+		app.locals.logged = stringname;
 	} else {
-		res.locals.topmenuicons = 'Registro';
-		res.locals.topmenuicons2 = 'Login';
+		if (indexderegistro) {
+			app.locals.topmenuicons = 'Perfil';
+			app.locals.topmenuicons2 = 'Sair';
+		} else {
+			app.locals.topmenuicons = 'Registro';
+			app.locals.topmenuicons2 = 'Login';
+		}
 	}
 	next();
 })
 
 
+
+
 app.get('/complacencyclass.com.br/', function(req, res) {
-	indexdeacesso++;
-	(indexdeacesso > 1) ? res.redirect('/complacencyclass.com.br/Home') : res.render('LandingPage');
+	(indexderegistro) ? res.redirect('/complacencyclass.com.br/Home') : res.render('LandingPage');
 	if (res.locals.success_msg == 'Usuário Logado!') {
 		indexderegistro++;
 	}
 });
 
-app.route('/complacencyclass.com.br/Home')
-		.get(videoController.allVideos);
-
 
 // Outros diretórios
 app.get('/complacencyclass.com.br/Registro', function(req, res) {
-	(indexderegistro) ? res.redirect('/complacencyclass.com.br/Perfil') : res.render('Register');;
+	(indexderegistro) ? res.redirect('/complacencyclass.com.br/Perfil') : res.render('Register');
 });
 
 app.get('/complacencyclass.com.br/Upload', function(req, res) {
@@ -99,11 +85,17 @@ app.get('/complacencyclass.com.br/Video', function(req, res){
 });
 
 app.get('/complacencyclass.com.br/Login', function(req, res) {
-  res.render('Login');
+  (indexderegistro) ? res.redirect('/complacencyclass.com.br/Logout') : res.render('Login');
 });
 
 app.get('/complacencyclass.com.br/Perfil', function(req, res) {
 	res.render('Profile');
+});
+
+app.get('/complacencyclass.com.br/Logout', function(req, res) {
+	indexderegistro = null;
+	app.locals.logged = null;
+	res.redirect('/complacencyclass.com.br');
 });
 
 app.get('/complacencyclass.com.br/Search', function(req,res){
