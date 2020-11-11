@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "Home.css",
+	"sources": [
+		"../SCSS/Home.scss"
+	],
+	"sourcesContent": [
+		".VideoExplorer {\r\n\timg {\r\n\t\twidth: 10%;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AACC,cADa,CACb,GAAG,AAAC,CACH,KAAK,CAAE,GAAG,CACV"
+}

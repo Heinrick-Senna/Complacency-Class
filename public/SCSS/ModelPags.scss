@@ -79,18 +79,16 @@
 		cursor       : pointer;
 		font         : bolder 1rem Nunito;
 		padding      : .8vh 0;
-		text-shadow  : .1vw .1vw .25vw black;
 		color        : white;
 		border-radius: 5vw;
 		width        : 14rem;
 		margin-top   : 5vh;
-		box-shadow   : 0px .5vw .5vw -.25vw black;
 		transition   : all 250ms ease;
 		&:hover, &:focus {
 			box-shadow: none;
 			text-shadow: none;
 			color: white;
-			border: solid .1vw black;
+			text-shadow  : .1vw .1vw .25vw black;
 		}
 	}
 	img {
