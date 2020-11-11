@@ -5,8 +5,8 @@
 		"../SCSS/Home.scss"
 	],
 	"sourcesContent": [
-		".VideoExplorer {\r\n\timg {\r\n\t\twidth: 10%;\r\n\t}\r\n}"
+		".VideoExplorer {\r\n\tmargin-top: 2.5vh;\r\n\tbackground-color: rgba(230,230,240,0.7);\t\r\n\twidth: 100%;\r\n\r\n}\r\n.VideoUnico{\r\n\tmargin-top: 2.5vh;\r\n\tfloat: left;\r\n\tposition: relative;\r\n\tmargin-right: 20vh;\r\n\tmax-width: 20%;\r\n\t\timg {\r\n\t\twidth: 40%;\r\n\t}\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "AAAA,AACC,cADa,CACb,GAAG,AAAC,CACH,KAAK,CAAE,GAAG,CACV"
+	"mappings": "AAAA,AAAA,cAAc,AAAC,CACd,UAAU,CAAE,KAAK,CACjB,gBAAgB,CAAE,qBAAqB,CACvC,KAAK,CAAE,IAAI,CAEX,AACD,AAAA,WAAW,AAAA,CACV,UAAU,CAAE,KAAK,CACjB,KAAK,CAAE,IAAI,CACX,QAAQ,CAAE,QAAQ,CAClB,YAAY,CAAE,IAAI,CAClB,SAAS,CAAE,GAAG,CAId,AATD,AAME,WANS,CAMT,GAAG,AAAC,CACJ,KAAK,CAAE,GAAG,CACV"
 }
