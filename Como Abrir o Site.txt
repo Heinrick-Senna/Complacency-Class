@@ -1,0 +1,22 @@
+O nosso projeto é baseado em Node.js e Mongodb:
+NPM + NODE.js (Arquivo .exe instalador) - https://nodejs.org/en/download/
+Docker Desktop Hub (Arquivo .exe instalador) - https://www.docker.com/products/docker-desktop
+
+Depois de instalado o Docker e o Node, clone o projeto: https://github.com/Heinrick-Senna/Complacency-Class.git
+
+Nota: Em caso do erro "WSL 2 is not installed" para abrir a aplicação do docker: 
+Feche a janela e abra o seu terminal como administrador e rode o seguinte comando ->
+"Enable-WindowsOptionalFeature -Online -FeatureName $("VirtualMachinePlatform", "Microsoft-Windows-Subsystem-Linux")"
+Pronto, depois de reiniciar seu computador só abrir o docker normalmente
+
+Inicie o docker e (dentro do seu terminal como administador):
+Baixe a imagem do mongo que você vai precisar: "docker pull mongo"  
+logo depois inicie essa imagem "docker run --name mongodb -p 271017:27017 -d mongo"
+
+Como os módulos do node utilizados no projeto são muito pesados para serem commitados no git, entre na pasta do projeto e use o comando "npm update" para baixar essas depêndencias. 
+Agora é só digitar o comando "npm run dev" e o
+site vai estar rodando no endereço local: localhost:3001/complacencyclass.com.br
+
+Obs: para o servidor local rodar como deveria é necessário o docker aberto e o mongodb iniciado, caso reinicie ou feche o docker, ao abrir ele novamente coloque o comando docker start mongodb no seu terminal.
+
+
