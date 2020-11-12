@@ -7,7 +7,7 @@ Depois de instalado o Docker e o Node, clone o projeto: https://github.com/Heinr
 Nota: Em caso do erro "WSL 2 is not installed" para abrir a aplicação do docker: 
 Feche a janela e abra o seu terminal como administrador e rode o seguinte comando ->
 "Enable-WindowsOptionalFeature -Online -FeatureName $("VirtualMachinePlatform", "Microsoft-Windows-Subsystem-Linux")"
-Pronto, depois de reiniciar seu computador só abrir o docker normalmente
+Pronto, depois do comando rodar por completo, digite 'y' para reinciar o computador (ou 'n' para reiniciar depois, mas reiniciar é necessário)
 
 Inicie o docker e (dentro do seu terminal como administador):
 Baixe a imagem do mongo que você vai precisar: "docker pull mongo"  
