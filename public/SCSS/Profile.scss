@@ -5,16 +5,15 @@
 	border-radius        : .5vw;
 	transition           : all 300ms ease;
 	display              : grid;
+	box-shadow   : 0.35vw 0.35vw 0.35vw -0.3vw rgba(0,0,0,0.6);
 	grid-template-columns: 50% 50%;
 	padding              : 3%;
-	box-shadow   : .1vw .5vw .5vw -.3vw black;
 	p {
 		text-transform: uppercase;
 		user-select  : none;
 		color        : #B4B4B4;
 		background   : white;
-		box-shadow   : .1vw .2vw .3vw -.1vw black;
-		border-radius: .2vw;
+		border-radius: 2vw;
 		width        : 90%;
 		text-align   : center;
 		font         : normal 1.5rem Nunito;
@@ -38,12 +37,12 @@
 	background-color: rgba(230,230,240,.7);
 	border-radius   : 1vw;
 	transition      : all 300ms ease;
-	box-shadow      : .1vw .5vw .5vw -.3vw black;
+	box-shadow   : 0.35vw 0.35vw 0.35vw -0.3vw rgba(0,0,0,0.6);
 	img {
 		border-radius: 10vw;
 		width        : 40%;
 		margin       : 5%;
-		box-shadow   : .5vw .75vw .5vw -.3vw rgba(0,0,0,.6);
+
 	}
 	p {
 		font  : bold 1.75rem Nunito;
