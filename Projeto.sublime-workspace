@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"indexderegistro"
+			],
+			[
+				"index",
+				"indexdeacesso"
+			],
+			[
+				"in",
+				"indexdelogado"
+			],
+			[
+				"su",
+				"success_msg"
+			],
+			[
+				"i",
+				"iregister"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"registr",
+				"registercheck"
+			],
+			[
 				"de",
 				"default"
 			],
@@ -16,20 +44,8 @@
 				"req"
 			],
 			[
-				"i",
-				"indexdeacesso"
-			],
-			[
-				"re",
-				"render"
-			],
-			[
 				"f",
 				"fun\tFunction"
-			],
-			[
-				"in",
-				"input\tTag"
 			],
 			[
 				"Video",
@@ -498,27 +514,47 @@
 			[
 				"ge",
 				"getThis"
-			],
-			[
-				"chrome",
-				"chrome64"
-			],
-			[
-				"Icon",
-				"Icon.png\tw:377 h:211"
-			],
-			[
-				"font",
-				"font-size\tproperty"
-			],
-			[
-				"aling",
-				"align-self\tproperty"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2758,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/controllers/user.js",
+			"settings":
+			{
+				"buffer_size": 2893,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/Profile.hbs",
+			"settings":
+			{
+				"buffer_size": 798,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/SCSS/MainStyle.scss",
+			"settings":
+			{
+				"buffer_size": 5017,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -676,11 +712,17 @@
 	[
 		"/C/wamp64/www/Complacency-Class",
 		"/C/wamp64/www/Complacency-Class/public",
-		"/C/wamp64/www/Complacency-Class/public/CSS",
-		"/C/wamp64/www/Complacency-Class/views"
+		"/C/wamp64/www/Complacency-Class/public/SCSS"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/Complacency-Class/src/models/video.js",
+		"/C/wamp64/www/Complacency-Class/src/routes/video.js",
+		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
+		"/C/wamp64/www/Complacency-Class/views/partials/msg.hbs",
+		"/C/wamp64/www/Complacency-Class/public/SCSS/MainStyle.scss",
+		"/C/wamp64/www/Complacency-Class/src/controllers/user.js",
+		"/C/wamp64/www/Complacency-Class/views/layouts/main.hbs",
 		"/C/wamp64/www/Complacency-Class/.env",
 		"/C/wamp64/www/Complacency-Class/package.json",
 		"/C/wamp64/www/Complacency-Class/package-lock.json",
@@ -688,11 +730,7 @@
 		"/C/wamp64/www/Complacency-Class/views/Home.hbs",
 		"/C/wamp64/www/Complacency-Class/src/models/user.js",
 		"/C/wamp64/www/Complacency-Class/src/controllers/video.js",
-		"/C/wamp64/www/Complacency-Class/src/models/video.js",
 		"/C/wamp64/www/Complacency-Class/views/VideoCadastro.hbs",
-		"/C/wamp64/www/Complacency-Class/src/controllers/user.js",
-		"/C/wamp64/www/Complacency-Class/views/layouts/main.hbs",
-		"/C/wamp64/www/Complacency-Class/src/routes/video.js",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/VideoCadastro.scss",
 		"/C/wamp64/www/Complacency-Class/app.js",
 		"/C/Photoshop.bat",
@@ -700,12 +738,9 @@
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Profile.scss",
 		"/C/wamp64/www/Complacency-Class/views/Register.hbs",
 		"/C/wamp64/www/Complacency-Class/views/Login.hbs",
-		"/C/wamp64/www/Complacency-Class/src/routes/user.js",
 		"/C/wamp64/www/Complacency-Class/public/JS/Explorer.js",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Explorer.scss",
-		"/C/wamp64/www/Complacency-Class/views/partials/msg.hbs",
 		"/C/wamp64/www/Complacency-Class/views/Explorer.hbs",
-		"/C/wamp64/www/Complacency-Class/public/SCSS/MainStyle.scss",
 		"/C/wamp64/www/Complacency-Class/views/Profile.hbs",
 		"/C/wamp64/www/Complacency-Class/public/SCSS/Explorar.scss",
 		"/C/wamp64/www/Complacency-Class/views/Explorar.hbs",
@@ -881,8 +916,546 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2578,
+								2578
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 936.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/controllers/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1423,
+								1423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/Profile.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+							"col_46B2DDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										619,
+										637
+									]
+								],
+								"scope": "col_46B2DDFF"
+							},
+							"col_46B2DDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_46B2DDFF_circle.png",
+								"regions":
+								[
+									[
+										575,
+										575
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								637,
+								637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/SCSS/MainStyle.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5017,
+						"regions":
+						{
+							"col_00000019":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2836,
+										2850
+									]
+								],
+								"scope": "col_00000019"
+							},
+							"col_00000019_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000019_circle.png",
+								"regions":
+								[
+									[
+										2818,
+										2818
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_0000003F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1086,
+										1101
+									]
+								],
+								"scope": "col_0000003F"
+							},
+							"col_0000003F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000003F_circle.png",
+								"regions":
+								[
+									[
+										1060,
+										1060
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00000059":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										332,
+										347
+									]
+								],
+								"scope": "col_00000059"
+							},
+							"col_00000059_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000059_circle.png",
+								"regions":
+								[
+									[
+										295,
+										295
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00000066":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2000,
+										2014
+									]
+								],
+								"scope": "col_00000066"
+							},
+							"col_00000066_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000066_circle.png",
+								"regions":
+								[
+									[
+										1969,
+										1969
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										655,
+										660
+									],
+									[
+										2322,
+										2327
+									],
+									[
+										2699,
+										2704
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										636,
+										636
+									],
+									[
+										2312,
+										2312
+									],
+									[
+										2680,
+										2680
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_022F38FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3875,
+										3882
+									]
+								],
+								"scope": "col_022F38FF"
+							},
+							"col_022F38FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_022F38FF_circle.png",
+								"regions":
+								[
+									[
+										3856,
+										3856
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_46B2DDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										265,
+										283
+									],
+									[
+										3233,
+										3251
+									]
+								],
+								"scope": "col_46B2DDFF"
+							},
+							"col_46B2DDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_46B2DDFF_circle.png",
+								"regions":
+								[
+									[
+										247,
+										247
+									],
+									[
+										3217,
+										3217
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_58E5E8FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3645,
+										3652
+									]
+								],
+								"scope": "col_58E5E8FF"
+							},
+							"col_58E5E8FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_58E5E8FF_circle.png",
+								"regions":
+								[
+									[
+										3625,
+										3625
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_626262FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1753,
+										1760
+									]
+								],
+								"scope": "col_626262FF"
+							},
+							"col_626262FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_626262FF_circle.png",
+								"regions":
+								[
+									[
+										1737,
+										1737
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_CCCCCCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										984,
+										988
+									]
+								],
+								"scope": "col_CCCCCCFF"
+							},
+							"col_CCCCCCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_CCCCCCFF_circle.png",
+								"regions":
+								[
+									[
+										971,
+										971
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F7F7F7FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										203,
+										210
+									],
+									[
+										1926,
+										1933
+									]
+								],
+								"scope": "col_F7F7F7FF"
+							},
+							"col_F7F7F7FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F7F7F7FF_circle.png",
+								"regions":
+								[
+									[
+										190,
+										190
+									],
+									[
+										1907,
+										1907
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFF01":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										352,
+										371
+									]
+								],
+								"scope": "col_FFFFFF01"
+							},
+							"col_FFFFFF01_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFF01_circle.png",
+								"regions":
+								[
+									[
+										295,
+										295
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										416,
+										421
+									],
+									[
+										564,
+										569
+									],
+									[
+										681,
+										686
+									],
+									[
+										1681,
+										1686
+									],
+									[
+										3939,
+										3944
+									],
+									[
+										4114,
+										4119
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										399,
+										399
+									],
+									[
+										555,
+										555
+									],
+									[
+										662,
+										662
+									],
+									[
+										1674,
+										1674
+									],
+									[
+										3931,
+										3931
+									],
+									[
+										4101,
+										4101
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								282,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
