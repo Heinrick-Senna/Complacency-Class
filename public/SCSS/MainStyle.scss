@@ -19,13 +19,15 @@ body {
 // Logo
 #Logo {
 	color         : white;
-	font          : bold 1.9rem Arial;
-	vertical-align: middle;
+	margin-top: 0;
+	vertical-align: top;
 	user-select   :none;
-	a{
+	a { 
 		text-decoration: none;
-		padding-top: 2vh;
 		color: white;
+	}
+	img {
+		max-width: 12em;
 	}
 }
 

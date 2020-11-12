@@ -8,10 +8,10 @@
 					<p id="BoxTitle" align="center">Cadastre seu vídeo</p>
 					<nav>
 						<form action="/complacencyclass.com.br/Video_cadastro" method="POST">
-							<li><label for="videoname">Título</label><input type="text" name="videoname"/></li>
+							<li><label for="videoname">Título</label><input type="text" name="videoname" required/></li>
 							<li><label for="file">Arquivo</label><input type="file" name="file"></li>
-							<li><label for="thumb">Thumb</label><input type="text" name="thumb"></li>
-							<li><label for="desc">Desc</label><textarea name="desc"></textarea></li>
+							<li><label for="thumb">Thumb</label><input type="text" name="thumb" placeholder="Link Para Imagen de Destaque"></li>
+							<li><label for="desc">Desc</label><textarea name="desc" required></textarea></li>
 							<button type="submit">Cadastrar</button>
 						</form>
 					</nav>
